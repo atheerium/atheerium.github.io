@@ -114,6 +114,10 @@
   - Actual numbers, actual outcomes -- the wins, the losses, and the hard lessons from a year of domain investing from Algeria.
   - 2026-07-21 / [["domains", "lessons", "results", "flipping", "strategy"]]
 
+- `/articles/stop-building-wrong-things/` -- I Spent 6 Months Building Features Nobody Asked For -- Here's What I Changed
+  - Domain appraisal tools, content generation features, and automation systems I built that nobody used. The hard lesson about building what's needed vs what's cool.
+  - 2026-07-21 / [["business", "building", "mvp", "validation", "lessons"]]
+
 - `/articles/vibe-coding-cleanup/` -- I Used AI to Build a Prototype in 2 Hours -- and Spent 3 Weeks Cleaning It Up
   - AI coding agents are incredible at getting to 80%. That last 20% is where the real work begins. Here's when to use AI and when to call a developer.
   - 2026-07-21 / [["freelancing", "ai", "development", "vibe-coding", "prototyping"]]
