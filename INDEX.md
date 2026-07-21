@@ -90,6 +90,10 @@
   - A list of projects doesn't sell your services. A portfolio of solved problems does. Here's the case study format that doubled my response rate.
   - 2026-07-21 / [["freelancing", "portfolio", "marketing", "sales", "clients"]]
 
+- `/articles/freelance-pricing-algeria/` -- How to Price Freelance Projects When You're Based in Algeria
+  - Charging Western prices from Algeria feels uncomfortable. Here's the framework I use to price projects based on value, not geography.
+  - 2026-07-21 / [["freelancing", "pricing", "algeria", "rates", "sales"]]
+
 - `/articles/freelancer-price-race/` -- Competing on Price Almost Broke My Freelance Career
   - How I escaped the race to the bottom by charging 3x more, losing 80% of leads, and making more money than ever.
   - 2026-07-21 / [["freelancing", "pricing", "business", "clients"]]
