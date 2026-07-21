@@ -94,6 +94,10 @@
   - Registering 25 domains and giving each 10% effort guarantees you sell nothing. Here's how to identify your top 3 and double down until they sell.
   - 2026-07-21 / [["domains", "portfolio", "strategy", "sales", "focus"]]
 
+- `/articles/running-team-small-town/` -- The Systems That Let Me Run a Business with a Team in a Small Town
+  - Aflou has no co-working spaces, no reliable courier aggregation, and no tech talent pool. Here's how we built systems that work anyway.
+  - 2026-07-21 / [["business", "operations", "team", "algeria", "systems"]]
+
 - `/articles/saas-pricing-algeria/` -- Your SaaS Is Too Expensive for the Algerian Market -- Here's the Pricing That Works
   - Global SaaS tools priced at $50-200/month don't fit Algerian businesses. Here's the pricing model that actually works when your customers earn in DZD.
   - 2026-07-21 / [["business", "saas", "pricing", "algeria", "products"]]
