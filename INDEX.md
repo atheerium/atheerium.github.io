@@ -118,6 +118,10 @@
   - Automated expired domain discovery -- fetching, filtering, DNS-checking, scoring, and ranking at scale.
   - 2026-07-21 / [["domains", "automation", "pipeline", "expired-domains", "tools"]]
 
+- `/articles/finding-suppliers-algeria/` -- How to Find Reliable Suppliers in Algeria for Your E-commerce Business
+  - Finding wholesale suppliers in Algeria is harder than finding customers. Here's how I source products without getting scammed or stuck with low quality.
+  - 2026-07-21 / [["business", "ecommerce", "algeria", "suppliers", "sourcing"]]
+
 - `/articles/freelance-portfolio-problem/` -- Why Your Freelance Portfolio Isn't Getting You Clients (And How to Fix It)
   - A list of projects doesn't sell your services. A portfolio of solved problems does. Here's the case study format that doubled my response rate.
   - 2026-07-21 / [["freelancing", "portfolio", "marketing", "sales", "clients"]]
