@@ -206,6 +206,10 @@
   - Actual numbers, actual outcomes -- the wins, the losses, and the hard lessons from a year of domain investing from Algeria.
   - 2026-07-21 / [["domains", "lessons", "results", "flipping", "strategy"]]
 
+- `/articles/start-freelancing-algeria/` -- How to Start Freelancing in Algeria (The Complete Beginner Guide)
+  - No degree, no experience, no network. Here's exactly how to start freelancing from Algeria, step by step.
+  - 2026-07-21 / [["freelancing", "algeria", "beginner", "getting-started", "guide"]]
+
 - `/articles/stop-building-wrong-things/` -- I Spent 6 Months Building Features Nobody Asked For -- Here's What I Changed
   - Domain appraisal tools, content generation features, and automation systems I built that nobody used. The hard lesson about building what's needed vs what's cool.
   - 2026-07-21 / [["business", "building", "mvp", "validation", "lessons"]]
