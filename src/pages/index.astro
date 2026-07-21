@@ -1,0 +1,76 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = await getCollection('articles', ({ data }) => !data.draft);
+const projects = await getCollection('projects', ({ data }) => !data.draft);
+const notes = await getCollection('notes', ({ data }) => !data.draft);
+
+// Most recent 3 of each
+const recentArticles = articles.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 3);
+const recentProjects = projects.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 3);
+const recentNotes = notes.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 3);
+---
+
+<Layout title="Home">
+  <section style="margin-bottom: 2rem;">
+    <h1 style="font-size: 2.5rem; margin-bottom: 0.25rem;">Atheerium</h1>
+    <p style="font-size: 1.1rem; color: #555; margin-top: 0;">
+      Domain investor · Freelance web developer · Building in public from Algeria
+    </p>
+  </section>
+
+  <section style="margin-bottom: 2.5rem;">
+    <h2>latest articles</h2>
+    {recentArticles.length > 0 ? (
+      <ul class="entry-list">
+        {recentArticles.map(entry => (
+          <li>
+            <span class="date">{entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+            <a href={`/articles/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a>
+            <p class="desc">{entry.data.description}</p>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p style="color: #888;">No articles yet.</p>
+    )}
+    <a href="/articles/" style="font-size: 0.9rem;">all articles →</a>
+  </section>
+
+  <section style="margin-bottom: 2.5rem;">
+    <h2>projects</h2>
+    {recentProjects.length > 0 ? (
+      <ul class="entry-list">
+        {recentProjects.map(entry => (
+          <li>
+            <span class="date">{entry.data.status}</span>
+            <a href={`/projects/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a>
+            <p class="desc">{entry.data.description}</p>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p style="color: #888;">No projects listed yet.</p>
+    )}
+    <a href="/projects/" style="font-size: 0.9rem;">all projects →</a>
+  </section>
+
+  <section style="margin-bottom: 2.5rem;">
+    <h2>recent notes</h2>
+    {recentNotes.length > 0 ? (
+      <ul class="entry-list">
+        {recentNotes.map(entry => (
+          <li>
+            <span class="date">{entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+            <a href={`/notes/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a>
+            <p class="desc">{entry.data.description}</p>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p style="color: #888;">No notes yet.</p>
+    )}
+    <a href="/notes/" style="font-size: 0.9rem;">all notes →</a>
+  </section>
+</Layout>

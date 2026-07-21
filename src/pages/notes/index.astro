@@ -1,0 +1,28 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const entries = (await getCollection('notes', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+---
+
+<Layout title="Notes">
+  <h1>Notes</h1>
+  <p style="color: #555; margin-bottom: 1.5rem;">
+    Quick notes, observations, and things I've learned.
+  </p>
+
+  {entries.length > 0 ? (
+    <ul class="entry-list">
+      {entries.map(entry => (
+        <li>
+          <span class="date">{entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+          <a href={`/notes/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a>
+          <p class="desc">{entry.data.description}</p>
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p style="color: #888;">No notes yet. Coming soon.</p>
+  )}
+</Layout>

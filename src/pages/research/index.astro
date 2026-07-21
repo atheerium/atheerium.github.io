@@ -1,0 +1,28 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const entries = (await getCollection('research', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+---
+
+<Layout title="Research">
+  <h1>Research</h1>
+  <p style="color: #555; margin-bottom: 1.5rem;">
+    Original research and analysis on domain markets, naming trends, and industry data.
+  </p>
+
+  {entries.length > 0 ? (
+    <ul class="entry-list">
+      {entries.map(entry => (
+        <li>
+          <span class="date">{entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+          <a href={`/research/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a>
+          <p class="desc">{entry.data.description}</p>
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p style="color: #888;">No research published yet. Coming soon.</p>
+  )}
+</Layout>

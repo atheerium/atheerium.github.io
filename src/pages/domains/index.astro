@@ -1,0 +1,28 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const entries = (await getCollection('domains', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+---
+
+<Layout title="Domains">
+  <h1>Domains</h1>
+  <p style="color: #555; margin-bottom: 1.5rem;">
+    Domain investing — portfolio, sales, acquisitions, analysis, and case studies.
+  </p>
+
+  {entries.length > 0 ? (
+    <ul class="entry-list">
+      {entries.map(entry => (
+        <li>
+          <span class="date">{entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+          <a href={`/domains/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a>
+          <p class="desc">{entry.data.description}</p>
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p style="color: #888;">No domain content yet. Coming soon.</p>
+  )}
+</Layout>
