@@ -14,6 +14,10 @@
   - My daily workflow with AI coding agents, MCP servers, and automation tools -- including what works and what doesn't.
   - 2026-07-21 / [["ai", "agents", "mcp", "automation", "development"]]
 
+- `/articles/algeria-ecommerce-website/` -- Why Most Algerian Small Businesses Don't Need an E-commerce Website
+  - The pressure to build a full online store is strong. But for most Algerian small businesses, WhatsApp + a simple catalog is better -- and cheaper.
+  - 2026-07-21 / [["business", "ecommerce", "algeria", "websites", "whatsapp"]]
+
 - `/articles/automate-everything/` -- I Automate Everything That Doesn't Need Human Judgment -- Here's What That Looks Like
   - Cold email sending, domain appraisal, content posting, delivery price calculation. If a human doesn't need to think about it, a script should be doing it.
   - 2026-07-21 / [["automation", "business", "domains", "freelancing", "productivity"]]
