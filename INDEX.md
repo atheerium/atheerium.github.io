@@ -18,6 +18,10 @@
   - What I've learned from sending 3,000+ cold emails for domain sales -- what works, what doesn't, and what I'd do differently.
   - 2026-07-19 / [["outreach", "sales", "email", "domains"]]
 
+- `/articles/delivery-costs-margins/` -- Delivery Costs Are Eating Your Margins -- Here's How to Fix It
+  - Most Algerian e-commerce businesses lose money on delivery without realizing it. Here's how to calculate true delivery costs and pick the right courier for every order.
+  - 2026-07-21 / [["business", "algeria", "delivery", "ecommerce", "logistics"]]
+
 - `/articles/domain-cold-emails/` -- Your Domain Cold Emails Are Going to Spam -- Here's Why
   - After sending 3,000 cold emails for domain sales with a sub-1% reply rate, here's what I learned about deliverability, targeting, and getting humans to respond.
   - 2026-07-21 / [["domains", "outreach", "sales", "email", "cold-email"]]
