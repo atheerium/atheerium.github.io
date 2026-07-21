@@ -78,6 +78,10 @@
   - The YouTube videos make it look easy. 12 months and 25 domains later, here's the unglamorous reality of building a domain portfolio from zero.
   - 2026-07-21 / [["domains", "investing", "reality", "expectations", "beginner"]]
 
+- `/articles/domain-investing-business-lessons/` -- What Domain Investing Taught Me About Business That Nothing Else Could
+  - I started domain investing to make money. What I actually learned was how markets work, how to sell, and how to kill my own bad ideas.
+  - 2026-07-21 / [["domains", "business", "lessons", "investing", "psychology"]]
+
 - `/articles/domain-investing-workflow/` -- Domain Investing Workflow: From Finding Domains to Getting Paid
   - My end-to-end process for domain investing -- how I find, evaluate, acquire, price, and sell domains from Algeria.
   - 2026-07-21 / [["domains", "workflow", "investing", "flipping"]]
