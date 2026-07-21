@@ -94,6 +94,10 @@
   - My end-to-end process for domain investing -- how I find, evaluate, acquire, price, and sell domains from Algeria.
   - 2026-07-21 / [["domains", "workflow", "investing", "flipping"]]
 
+- `/articles/domain-landing-page/` -- How to Build a Domain Landing Page That Actually Converts
+  - A blank parked page says 'this domain is neglected.' A good landing page says 'this domain has a buyer waiting.' Here's how to build one in 30 minutes.
+  - 2026-07-21 / [["domains", "landing-pages", "selling", "websites", "marketing"]]
+
 - `/articles/domain-negotiation-tactics/` -- Domain Name Negotiation: How to Handle Lowball Offers and Close the Deal
   - When someone offers $50 on a $795 domain, do you counter, ignore, or walk away? Here's my negotiation framework for domain sales.
   - 2026-07-21 / [["domains", "negotiation", "sales", "pricing", "psychology"]]
