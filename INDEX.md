@@ -142,6 +142,10 @@
   - Domain appraisal tools, content generation features, and automation systems I built that nobody used. The hard lesson about building what's needed vs what's cool.
   - 2026-07-21 / [["business", "building", "mvp", "validation", "lessons"]]
 
+- `/articles/twitter-business-tool/` -- How I Use Twitter as a Business Tool (Not a Distraction)
+  - Twitter is where I find clients, learn what's working, and build reputation. Here's the system that makes it productive, not addictive.
+  - 2026-07-21 / [["twitter", "marketing", "networking", "business", "social-media"]]
+
 - `/articles/vibe-coding-cleanup/` -- I Used AI to Build a Prototype in 2 Hours -- and Spent 3 Weeks Cleaning It Up
   - AI coding agents are incredible at getting to 80%. That last 20% is where the real work begins. Here's when to use AI and when to call a developer.
   - 2026-07-21 / [["freelancing", "ai", "development", "vibe-coding", "prototyping"]]
