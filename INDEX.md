@@ -42,6 +42,10 @@
   - When you run a business outside the US/Europe, most SaaS doesn't fit. Here's why building your own tools is cheaper and faster than you think.
   - 2026-07-21 / [["business", "tools", "development", "saas", "automation"]]
 
+- `/articles/building-100-page-site/` -- 100 Pages: What I Learned Building This Site (And How You Can Build Your Own)
+  - This site went from 3 articles to 100 pages in one day. Here's the stack, the workflow, and the lessons from building a content-driven website with AI agents.
+  - 2026-07-21 / [["blog", "building", "astro", "ai-agents", "web-development", "meta"]]
+
 - `/articles/building-omnipost/` -- Building OmniPost: A Multi-Platform Content Bot
   - How I built an automated bot that posts to Twitter, Bluesky, and Dev.to from a single content pipeline.
   - 2026-07-21 / [["projects", "automation", "bots", "twitter", "bluesky"]]
