@@ -182,6 +182,10 @@
   - Most inventory systems cost too much for small Algerian businesses. Here's a paper-to-digital system that scales from 10 products to 500.
   - 2026-07-21 / [["business", "ecommerce", "inventory", "operations", "algeria"]]
 
+- `/articles/managing-multiple-income-streams/` -- How I Manage 3 Income Streams From One Laptop in Algeria
+  - Domain investing, freelancing, and e-commerce — three different businesses, one laptop, and a system that keeps them from collapsing into chaos.
+  - 2026-07-21 / [["business", "productivity", "systems", "income", "algeria"]]
+
 - `/articles/mostaql-vs-upwork-algeria/` -- Mostaql vs. Upwork for Algerian Freelancers -- Which Platform Pays Better?
   - I've used both platforms extensively from Algeria. Here's the honest comparison of rates, fees, client quality, and actual earnings.
   - 2026-07-21 / [["freelancing", "platforms", "mostaql", "upwork", "algeria"]]
@@ -233,6 +237,10 @@
 - `/articles/walking-away-domains/` -- The Most Underrated Domain Investing Skill Is Knowing When to Walk Away
   - Overpaying for a domain at auction, holding a name too long, chasing a buyer who won't reply -- the best investments I've made are the ones I didn't.
   - 2026-07-21 / [["domains", "discipline", "psychology", "auctions", "mistakes"]]
+
+- `/articles/whatsapp-api-business/` -- How to Set Up WhatsApp Business API for Your Algerian E-Commerce
+  - WhatsApp order chaos is solvable. Here's how to connect the WhatsApp Business API to your order system with free and low-cost tools.
+  - 2026-07-21 / [["business", "ecommerce", "algeria", "whatsapp", "automation", "api"]]
 
 - `/articles/whatsapp-order-chaos/` -- WhatsApp Order Chaos Is Costing Your Small Business Money
   - How unorganized order management on WhatsApp leads to missed sales, double-bookings, and angry customers -- and a simple fix that costs $0.
