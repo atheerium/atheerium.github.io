@@ -46,6 +46,10 @@
   - Most Algerian e-commerce businesses lose money on delivery without realizing it. Here's how to calculate true delivery costs and pick the right courier for every order.
   - 2026-07-21 / [["business", "algeria", "delivery", "ecommerce", "logistics"]]
 
+- `/articles/domain-auctions-vs-hold/` -- Domain Auctions vs. Holding -- How to Decide When to Sell
+  - After 12 months with zero sales, I started routing weak domains to auction. Here's the framework I use to decide which domains to auction and which to keep.
+  - 2026-07-21 / [["domains", "auctions", "portfolio", "selling", "strategy"]]
+
 - `/articles/domain-cold-emails/` -- Your Domain Cold Emails Are Going to Spam -- Here's Why
   - After sending 3,000 cold emails for domain sales with a sub-1% reply rate, here's what I learned about deliverability, targeting, and getting humans to respond.
   - 2026-07-21 / [["domains", "outreach", "sales", "email", "cold-email"]]
