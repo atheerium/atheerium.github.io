@@ -10,6 +10,10 @@
   - My daily workflow with AI coding agents, MCP servers, and automation tools -- including what works and what doesn't.
   - 2026-07-21 / [["ai", "agents", "mcp", "automation", "development"]]
 
+- `/articles/build-your-own-tools/` -- I Built My Own Tools Because Off-the-Shelf Software Was Never Built for Me
+  - When you run a business outside the US/Europe, most SaaS doesn't fit. Here's why building your own tools is cheaper and faster than you think.
+  - 2026-07-21 / [["business", "tools", "development", "saas", "automation"]]
+
 - `/articles/building-omnipost/` -- Building OmniPost: A Multi-Platform Content Bot
   - How I built an automated bot that posts to Twitter, Bluesky, and Dev.to from a single content pipeline.
   - 2026-07-21 / [["projects", "automation", "bots", "twitter", "bluesky"]]
