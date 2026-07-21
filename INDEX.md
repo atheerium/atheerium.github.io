@@ -98,6 +98,10 @@
   - How I stopped registering domains nobody wants by validating buyer demand before buying -- a framework that cut my dead inventory to zero.
   - 2026-07-21 / [["domains", "investing", "mistakes", "valuation", "buyer-research"]]
 
+- `/articles/ecommerce-costs-algeria/` -- The Real Cost of Running an E-commerce Business in Algeria (Detailed Breakdown)
+  - Most people think e-commerce is just 'buy low, sell high.' Here's the real monthly cost breakdown of running an e-commerce operation in Algeria, from someone who does it.
+  - 2026-07-21 / [["business", "ecommerce", "algeria", "costs", "operations"]]
+
 - `/articles/ecommerce-profit-calculator/` -- I Was Losing Money on Every Order Until I Fixed My Pricing
   - Most Algerian e-commerce businesses don't know their real margins. Here's a simple profit calculator that shows you exactly which products and destinations are profitable.
   - 2026-07-21 / [["business", "ecommerce", "algeria", "pricing", "margins"]]
