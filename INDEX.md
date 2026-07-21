@@ -94,6 +94,10 @@
   - My end-to-end process for domain investing -- how I find, evaluate, acquire, price, and sell domains from Algeria.
   - 2026-07-21 / [["domains", "workflow", "investing", "flipping"]]
 
+- `/articles/domain-negotiation-tactics/` -- Domain Name Negotiation: How to Handle Lowball Offers and Close the Deal
+  - When someone offers $50 on a $795 domain, do you counter, ignore, or walk away? Here's my negotiation framework for domain sales.
+  - 2026-07-21 / [["domains", "negotiation", "sales", "pricing", "psychology"]]
+
 - `/articles/domain-sales-analysis/` -- How I Analyze Domain Sales Data
   - My process for tracking and analyzing domain sales -- from data collection to identifying patterns that inform acquisition and pricing decisions.
   - 2026-07-21 / [["domains", "data", "analysis", "methodology"]]
