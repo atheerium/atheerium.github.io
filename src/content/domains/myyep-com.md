@@ -1,6 +1,6 @@
 ---
 title: MyYep.com
-description: Apps / Consumer domain for sale at $299. Ultra-short, memorable, sounds like "My Yep" — positive affirmation.
+description: Apps / Consumer domain for sale at $299. Ultra-short, memorable, sounds like "My Yep" -- positive affirmation.
 pubDate: 2026-07-21
 tags: ["domains", "domain-investing", "for-sale", "299-tier"]
 draft: false

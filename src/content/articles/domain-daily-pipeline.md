@@ -1,6 +1,6 @@
 ---
 title: "Building a Daily Domain Pipeline"
-description: "How I automate expired domain discovery — fetching 20,000 domains per day, filtering, scoring, and ranking in under 60 seconds."
+description: "How I automate expired domain discovery -- fetching 20,000 domains per day, filtering, scoring, and ranking in under 60 seconds."
 pubDate: 2026-07-20
 tags: ["domains", "automation", "pipeline", "tools"]
 ---

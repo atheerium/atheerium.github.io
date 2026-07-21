@@ -1,6 +1,6 @@
 ---
 title: "GitHub Pages Setup Notes"
-description: "How I set up this site — Astro + GitHub Pages with automatic deployment."
+description: "How I set up this site -- Astro + GitHub Pages with automatic deployment."
 pubDate: 2026-07-21
 tags: ["meta", "astro", "github-pages"]
 ---

@@ -1,6 +1,6 @@
 ---
-title: "Healthcare Domain Market — Preliminary Findings"
-description: "Initial research on the healthcare domain market — buyer types, price ranges, and naming patterns."
+title: "Healthcare Domain Market -- Preliminary Findings"
+description: "Initial research on the healthcare domain market -- buyer types, price ranges, and naming patterns."
 pubDate: 2026-07-18
 tags: ["domains", "healthcare", "research"]
 ---

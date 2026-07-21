@@ -1,6 +1,6 @@
 ---
 title: FileEmail.com
-description: SaaS / Productivity domain for sale at $795. Describes the function clearly — file sharing via email.
+description: SaaS / Productivity domain for sale at $795. Describes the function clearly -- file sharing via email.
 pubDate: 2026-07-21
 tags: ["domains", "domain-investing", "for-sale", "795-tier"]
 draft: false

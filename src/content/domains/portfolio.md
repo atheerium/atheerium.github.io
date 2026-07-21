@@ -1,6 +1,6 @@
 ---
 title: Domain Portfolio
-description: Full portfolio of domains I'm currently selling — organized by price tier with valuations and buyer profiles.
+description: Full portfolio of domains I'm currently selling -- organized by price tier with valuations and buyer profiles.
 pubDate: 2026-07-21
 tags: ["domains", "portfolio", "domain-investing"]
 draft: false

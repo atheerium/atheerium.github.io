@@ -1,5 +1,5 @@
 ---
-title: "Domain-ion — Unified Domain Toolkit"
+title: "Domain-ion -- Unified Domain Toolkit"
 description: "A CLI and MCP server for domain appraisal, comparable sales, trademark checks, lead generation, and portfolio management."
 pubDate: 2026-07-15
 tags: ["domains", "tools", "cli", "mcp"]

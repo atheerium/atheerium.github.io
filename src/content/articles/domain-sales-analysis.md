@@ -1,6 +1,6 @@
 ---
 title: "How I Analyze Domain Sales Data"
-description: "My process for tracking and analyzing domain sales — from data collection to identifying patterns that inform acquisition and pricing decisions."
+description: "My process for tracking and analyzing domain sales -- from data collection to identifying patterns that inform acquisition and pricing decisions."
 pubDate: 2026-07-21
 tags: ["domains", "data", "analysis", "methodology"]
 ---

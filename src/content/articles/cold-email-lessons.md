@@ -1,6 +1,6 @@
 ---
 title: "Cold Email Lessons from Domain Outreach"
-description: "What I've learned from sending 3,000+ cold emails for domain sales — what works, what doesn't, and what I'd do differently."
+description: "What I've learned from sending 3,000+ cold emails for domain sales -- what works, what doesn't, and what I'd do differently."
 pubDate: 2026-07-19
 tags: ["outreach", "sales", "email", "domains"]
 ---
