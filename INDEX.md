@@ -122,6 +122,10 @@
   - Automated expired domain discovery -- fetching, filtering, DNS-checking, scoring, and ranking at scale.
   - 2026-07-21 / [["domains", "automation", "pipeline", "expired-domains", "tools"]]
 
+- `/articles/facebook-groups-vs-ads-algeria/` -- Facebook Groups vs. Meta Ads: Where to Market Your Business in Algeria
+  - Most Algerian businesses waste money on the wrong marketing channel. Here's when to use Facebook groups (free) and when to invest in Meta ads (paid).
+  - 2026-07-21 / [["business", "marketing", "facebook", "ads", "algeria"]]
+
 - `/articles/finding-suppliers-algeria/` -- How to Find Reliable Suppliers in Algeria for Your E-commerce Business
   - Finding wholesale suppliers in Algeria is harder than finding customers. Here's how I source products without getting scammed or stuck with low quality.
   - 2026-07-21 / [["business", "ecommerce", "algeria", "suppliers", "sourcing"]]
