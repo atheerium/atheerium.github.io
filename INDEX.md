@@ -126,6 +126,10 @@
   - How I escaped the race to the bottom by charging 3x more, losing 80% of leads, and making more money than ever.
   - 2026-07-21 / [["freelancing", "pricing", "business", "clients"]]
 
+- `/articles/github-for-business/` -- How I Use GitHub to Run My Entire Business (For Free)
+  - GitHub isn't just for code. Issues, Actions, Pages, and Wikis run my task management, automation, hosting, and documentation -- all on the free plan.
+  - 2026-07-21 / [["github", "business", "automation", "productivity", "tools"]]
+
 - `/articles/gulf-clients-from-algeria/` -- Freelancing for Gulf Clients From Algeria -- The Complete Playbook
   - How I find, pitch, and win Gulf clients from Algeria -- and how I get paid without a Gulf bank account.
   - 2026-07-21 / [["freelancing", "gulf", "algeria", "clients", "sales", "payments"]]
