@@ -72,7 +72,9 @@ If your task involves human judgment (deciding which client to call first, which
 
 If the data source changes format every month, the script will break constantly. Only automate stable inputs.
 
-## FAQs
+*Related: [Build Your Own Tools](/articles/build-your-own-tools/)*
+
+##s
 
 ### Q: What's the easiest first automation?
 A: A daily email report. Fetch data from a source, format it, send it to yourself. One less thing to remember.

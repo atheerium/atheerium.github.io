@@ -1,55 +1,55 @@
-# TASKS.md — Site Launch & Content Roadmap
+# TASKS.md — Site Content Roadmap
 
 > **For agents:** This is the canonical task list. Update status as work progresses. One task in progress at a time.
 
 ---
 
-## Phase 1 — Foundation (Technical Setup)
+## Phase 1 — Foundation ✅ (Complete)
 
-- [ ] **1. Google Search Console** — Verify domain ownership, submit sitemap
-- [ ] **2. Cloudflare Web Analytics** — Add script to Layout.astro
-
----
-
-## Phase 2 — First 10 Articles (10 published)
-
-- [x] 3. Domain investing workflow — from finding to selling
-- [x] 4. How I evaluate .com domains — 3-criteria framework
-- [x] 5. Building OmniPost — multi-platform content bot
-- [x] 6. NameBio comparable sales workflow
-- [x] 7. ExpiredDomains.net daily pipeline
-- [x] 8. AI agents for developers — MCP, automation, workflows
-- [x] 9. Lessons from selling domains
+- [x] 1. Google Search Console — Not connected (needs manual verification)
+- [x] 2. Cloudflare Web Analytics — Not installed (needs token with Analytics perms)
+- [x] 3–9. First 10 articles published
+- [x] /start page created
+- [x] /browse page created
+- [x] Internal linking — needs improvement (see below)
+- [x] INDEX.md — content index for agents
+- [x] BLOG.md — content guidelines
 
 ---
 
-## Phase 3 — Once 10+ Articles Published
+## Phase 2 — Internal Linking & SEO Fixes (Current)
 
-- [ ] 10. /start page — "new here? read this first"
-- [ ] 11. Internal linking — every article links to 2-3 others
-
----
-
-## Lower Priority — Write When Ready
-
-- [ ] GitHub Pages + Astro setup guide
-- [ ] Gulf freelance market research
-- [ ] Domain keyword analysis (prefix/suffix patterns)
-- [ ] Lessons from selling domains (actual numbers)
+- [ ] **Fix internal linking** — bump 49 articles from 1 link to 2+
+- [ ] **Add FAQ sections** to 10 original articles (missing GEO signals)
+- [ ] Connect Google Search Console
+- [ ] Install Cloudflare Web Analytics
 
 ---
 
-## Published Articles (Archive)
+## Phase 3 — Content Expansion (+20 Articles)
 
-| Article | Date | Link |
-|---------|------|------|
-| Domain Sales Analysis | Jul 21 | /articles/domain-sales-analysis/ |
-| Domain Daily Pipeline | Jul 21 | /articles/domain-daily-pipeline/ |
-| Cold Email Lessons | Jul 21 | /articles/cold-email-lessons/ |
-| Domain Investing Workflow | Jul 21 | /articles/domain-investing-workflow/ |
-| How I Evaluate .com Domains | Jul 21 | /articles/evaluate-dot-com-domains/ |
-| Building OmniPost | Jul 21 | /articles/building-omnipost/ |
-| NameBio Comparable Sales Workflow | Jul 21 | /articles/namebio-workflow/ |
-| Expired Domains Daily Pipeline | Jul 21 | /articles/expired-domains-pipeline/ |
-| AI Agents for Developers | Jul 21 | /articles/ai-agents-for-devs/ |
-| Lessons from Selling Domains | Jul 21 | /articles/selling-domains-lessons/ |
+Priority topics (not yet covered):
+
+| Topic | Audience | Why |
+|-------|----------|-----|
+| How to build a landing page that converts | Domain investors | Complements domain-landing-page article |
+| Setting up Cloudflare for domains | Domain investors | Practical tutorial missing |
+| Using AI agents for domain research | Domain investors | New angle on workflow |
+| Building a micro-SaaS as an Algerian dev | Freelancers | Real business model guide |
+| Getting your first 100 customers | Small business | Growth playbook |
+| WhatsApp API for business | Small business | Next step after WhatsApp chaos article |
+| Working with Gulf clients — payment guide | Freelancers | Specific payment methods, contracts |
+| Managing multiple income streams | Both | Financial strategy |
+
+---
+
+## Published Articles (Archive: 59 total)
+
+| Category | Count |
+|----------|-------|
+| Domain investing | 20 |
+| Freelancing | 18 |
+| Small business / e-commerce | 16 |
+| General / meta | 5 |
+
+Full listing in INDEX.md. Run `python3 scripts/generate-index.py` after adding content.

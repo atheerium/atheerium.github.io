@@ -60,7 +60,9 @@ For me, it was checking domain availability. I hated opening 5 tabs per domain. 
 
 **Set it and monitor it.** Every automation breaks eventually. Set up monitoring (I use cron notification) so you know when it fails.
 
-## FAQs
+*Related: [Automation 200 Lines](/articles/automation-200-lines/)*
+
+##s
 
 ### Q: How much time do automations actually save me?
 A: About 10-15 hours per week across all three businesses. But the bigger benefit is consistency -- the automation never forgets, never procrastinates, never makes typos.

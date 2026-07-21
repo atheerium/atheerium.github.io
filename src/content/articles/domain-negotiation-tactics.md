@@ -61,7 +61,9 @@ In all three cases, say: "I understand. Let me know if you change your mind." Mo
 3. **Know your floor.** Your minimum acceptable price (mine is ~40-50% of BIN). Never go below it.
 4. **Close when you can.** If a serious offer is close to your floor, take it. Cash now is worth more than "maybe higher later."
 
-## FAQs
+*Related: [Domain Landing Page](/articles/domain-landing-page/)*
+
+##s
 
 ### Q: What if the buyer says "I can get a similar domain for $12"?
 A: "You might find a similar name at reg fee. If you find one that fits your business as well as this one, you should take it." They rarely find it.

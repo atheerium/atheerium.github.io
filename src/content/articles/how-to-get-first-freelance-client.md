@@ -68,7 +68,9 @@ First paying client. From the free one I built to solve a problem.
 
 The free website cost me $15 in hosting and 2 days of time. It generated $300 in direct revenue and 3 more projects from referrals. ROI: 20x.
 
-## FAQs
+*Related: [Start Freelancing Algeria](/articles/start-freelancing-algeria/)*
+
+##s
 
 ### Q: What if I can't code yet?
 A: Use a static site generator (Astro, Hugo, Jekyll) with a template. You don't need to be a developer to fix a broken business website.

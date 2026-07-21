@@ -53,3 +53,16 @@ The domains that matter are the ones that sell, not the ones I like.
 ---
 
 *Related:* [Domain Investing Workflow: From Finding Domains to Getting Paid](/articles/domain-investing-workflow/), [What Domain Investing Taught Me About Business That Nothing Else Could](/articles/domain-investing-business-lessons/), [Your Domain Portfolio Is Too Big -- How to Focus and Actually Sell Something](/articles/portfolio-too-big/), [I Thought Domain Flipping Would Make Me Rich Quick -- Here's What Actually Happened](/articles/domain-flipping-reality/)
+
+## FAQs
+
+### Q: What's the biggest mistake new domain investors make?
+A: Buying domains they like instead of domains someone will buy. You're not the customer. The customer is a business owner who needs a name.
+
+### Q: Afternic or cold outreach — which works better?
+A: Both. Afternic handles passive buyers searching for domains. Cold outreach lets you actively pitch to businesses that need your domain. Combined, they outperform either alone.
+
+### Q: Should I auction a domain that isn't selling?
+A: Yes. If a domain gets zero human replies after 30 email outreach attempts and sits 6+ months on Afternic with no views, auction it. Don't hold forever.
+
+*Related: [Domain Sales Analysis](/articles/domain-sales-analysis/)*

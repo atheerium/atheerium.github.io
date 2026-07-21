@@ -72,7 +72,9 @@ Meta ads (Facebook and Instagram) cost money but let you target specific audienc
 5. Invest 50% of first month's profit into Meta ads for the top product
 6. Scale what works, cut what doesn't
 
-## FAQs
+*Related: [Finding Suppliers Algeria](/articles/finding-suppliers-algeria/)*
+
+##s
 
 ### Q: How much should I spend on Meta ads in Algeria?
 A: Start at 300 DZD/day ($2). If it works, scale to 1,000 DZD/day. Most Algerian businesses overspend. Start small and increase.

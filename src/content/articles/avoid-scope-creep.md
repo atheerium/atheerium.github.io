@@ -82,7 +82,9 @@ I never negotiate the 50% deposit. If a client pushes back, they're not serious.
 5. Use the change request process for every addition
 6. Weekly updates even when there's nothing to report
 
-## FAQs
+*Related: [Freelance Portfolio Problem](/articles/freelance-portfolio-problem/)*
+
+##s
 
 ### Q: What if the client refuses to pay the deposit?
 A: Don't start. A client who won't pay a deposit won't pay the final invoice.

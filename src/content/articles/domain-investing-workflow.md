@@ -55,3 +55,16 @@ The only real limitation is not being able to use GoDaddy's premium listing serv
 ---
 
 *Related:* [What I've Learned From 12 Months of Domain Flipping](/articles/selling-domains-lessons/), [What Domain Investing Taught Me About Business That Nothing Else Could](/articles/domain-investing-business-lessons/), [The Most Underrated Domain Investing Skill Is Knowing When to Walk Away](/articles/walking-away-domains/), [NameBio Workflow: Finding Comparable Domain Sales](/articles/namebio-workflow/)
+
+*Related: [Evaluate Dot Com Domains](/articles/evaluate-dot-com-domains/)*
+
+##s
+
+### Q: How much capital do I need to start domain investing?
+A: $12 per domain registration. Start with 5-10 domains ($60-120). The barrier to entry is time and research, not money.
+
+### Q: How long does it take to sell a domain?
+A: 6-18 months average for a well-chosen domain. Some sell in weeks, others take years. That's why capital turnover matters.
+
+### Q: Should I hand-register or buy expired domains?
+A: Hand-registered domains need strong buyer demand. Expired domains have existing traffic and backlinks but cost more. Start with hand-registrations on high-demand keywords.

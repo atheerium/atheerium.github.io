@@ -57,7 +57,9 @@ Fix the offer, not the market.
 4. **Check your opinions against data.** Before acting on a strong opinion, find evidence for or against it.
 5. **When something isn't working, change the offer.** Don't wait for the market to change.
 
-## FAQs
+*Related: [Domain Flipping Reality](/articles/domain-flipping-reality/)*
+
+##s
 
 ### Q: Would I make more money if I started with buying and selling rather than building products?
 A: That depends on your skills. I'm better at building systems than selling domains. But the lessons from domain investing made me better at both.

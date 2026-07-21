@@ -64,7 +64,9 @@ If your business is in the US or Europe, off-the-shelf SaaS probably covers your
 
 If you don't enjoy building things, this approach will feel like a chore. You can hire someone (like me) to build the tool for you for $600-$2,500. But you need to know exactly what problem you're solving.
 
-## FAQs
+*Related: [Stop Building Wrong Things](/articles/stop-building-wrong-things/)*
+
+##s
 
 ### Q: Isn't building your own tool more expensive than buying one?
 A: Not if you value your time at $0 (building for yourself) and use free tiers. It becomes expensive if you hire a developer at agency rates.

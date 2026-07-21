@@ -90,3 +90,5 @@ A: Yes, but charge a restocking fee (15-20%) to cover shipping and handling. Thi
 ---
 
 *Related: [Handling Customer Complaints on WhatsApp](/articles/handling-customer-complaints/) -- managing the communication side. [COD Killing Margins](/articles/cod-killing-margins/) -- preventing returns before they happen.*
+
+*Related: [Ecommerce Costs Algeria](/articles/ecommerce-costs-algeria/)*

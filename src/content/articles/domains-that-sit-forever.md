@@ -99,7 +99,9 @@ There are two cases where the buyer pool test fails:
 
 For 95% of domains available at reg fee, the buyer pool test works.
 
-## FAQs
+*Related: [Portfolio Too Big](/articles/portfolio-too-big/)*
+
+##s
 
 ### Q: How do I know if a buyer pool is "big enough"?
 A: If you hit 20+ named companies before slowing down, it's big enough. Under 10, it's too small.

@@ -90,7 +90,9 @@ Total automation savings: ~5 hours/day. That's the difference between running 3 
 
 **Step 5:** Audit weekly. What slipped? Why? Fix the system, not your willpower.
 
-## FAQs
+*Related: [Running Team Small Town](/articles/running-team-small-town/)*
+
+##s
 
 ### Q: Isn't 3 businesses too many?
 A: Yes, if you're running them all manually. No, if the automation handles execution and you handle decisions. The automation is the multiplier.

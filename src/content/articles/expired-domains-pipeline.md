@@ -80,3 +80,14 @@ The same pipeline accepts custom input files. If I find a list on ExpiredDomains
 ---
 
 *Related:* [Building a Daily Domain Pipeline](/articles/domain-daily-pipeline/), [How I Use GitHub to Run My Entire Business (For Free)](/articles/github-for-business/), [How I Evaluate .com Domains: The 3-Criteria Framework](/articles/evaluate-dot-com-domains/), [How I Analyze Domain Sales Data](/articles/domain-sales-analysis/)
+
+## FAQs
+
+### Q: Do I need a powerful computer to run this?
+A: No. The pipeline runs on a standard Linux laptop. DNS checks are parallel but lightweight — 20,000 domains in under a minute.
+
+### Q: How do you avoid registering domains with trademark issues?
+A: The pipeline doesn't check trademarks automatically. I manually verify the shortlisted domains (top 20-30) against USPTO before registering.
+
+### Q: What's the best source for expired domains?
+A: ExpiredDomains.net for manual browsing, WhoisFreaks GitHub dumps for automated pipelines. Combine both for best coverage.

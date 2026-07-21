@@ -70,3 +70,5 @@ A: Worse polish, better integration. If you already use GitHub for code, it's be
 ---
 
 *Related: [I Automate Everything](/articles/automate-everything/) -- the broader automation stack. [Daily Routine](/articles/daily-routine-three-businesses/) -- how this infrastructure supports the daily schedule.*
+
+*Related: [Automation 200 Lines](/articles/automation-200-lines/)*

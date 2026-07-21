@@ -77,7 +77,9 @@ That's it. The page doesn't need more because the buyer already knows why they'r
 
 Alternative: Use a service like Dan.com or Afternic's landing pages. They handle hosting and checkout. The tradeoff is commission (15-20%).
 
-## FAQs
+*Related: [Domain Negotiation Tactics](/articles/domain-negotiation-tactics/)*
+
+##s
 
 ### Q: Should I show a price on the landing page?
 A: Yes, if you have a fixed BIN price. "Buy now for $795" converts better than "Contact for price." If you're open to offers, skip the price.

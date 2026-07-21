@@ -99,3 +99,14 @@ The code is at [domain-daily-pipeline](https://github.com/atheerium/domain-daily
 ---
 
 *Related:* [The Daily Domain Pipeline: How I Process 20,000 Expired Domains in 45 Seconds](/articles/expired-domains-pipeline/), [How I Use GitHub to Run My Entire Business (For Free)](/articles/github-for-business/), [Building OmniPost: A Multi-Platform Content Bot](/articles/building-omnipost/), [I Built My Own Tools Because Off-the-Shelf Software Was Never Built for Me](/articles/build-your-own-tools/)
+
+## FAQs
+
+### Q: Where do you get the expired domain list?
+A: WhoisFreaks GitHub releases (free, 20K domains daily) and ExpiredDomains.net (manual filtering).
+
+### Q: How long does the full pipeline take?
+A: About 45 seconds for 20,000 domains — DNS check is the bottleneck, but parallel lookups keep it fast.
+
+### Q: Do you register domains directly from the pipeline?
+A: No. The pipeline scores and ranks. I manually review the top 20 and decide which to register.

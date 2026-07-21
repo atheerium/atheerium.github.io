@@ -86,3 +86,5 @@ A: For structured data (orders, products, customers), yes. PostgreSQL is more ca
 ---
 
 *Related: [Build Your Own Tools](/articles/build-your-own-tools/) -- the full stack I use. [Custom App vs SaaS](/articles/custom-app-vs-saas/) -- when to build vs buy.*
+
+*Related: [Choosing Domain Registrar](/articles/choosing-domain-registrar/)*

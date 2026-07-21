@@ -70,3 +70,16 @@ Three data points within $300 of each other. That's a reliable band. Without the
 ---
 
 *Related:* [NameBio Workflow: Finding Comparable Domain Sales](/articles/namebio-workflow/), [The Daily Domain Pipeline: How I Process 20,000 Expired Domains in 45 Seconds](/articles/expired-domains-pipeline/), [Your Domain Portfolio Is Too Big -- How to Focus and Actually Sell Something](/articles/portfolio-too-big/), [How I Evaluate .com Domains: The 3-Criteria Framework](/articles/evaluate-dot-com-domains/)
+
+*Related: [Afternic Vs Outreach](/articles/afternic-vs-outreach/)*
+
+##s
+
+### Q: What's the minimum sales data I need for a reliable appraisal?
+A: 3+ comparable sales within the last 12 months for the same keyword pattern. Fewer than 3 and you're guessing.
+
+### Q: Which TLD has the highest resale value?
+A: .com dominates — 80%+ of all recorded domain sales. ccTLDs like .io and .ai have niche value but far less liquidity.
+
+### Q: How do I access NameBio data for free?
+A: NameBio offers free search at namebio.com (limited results) and a paid API for bulk access. The free tier is enough for spot checks.

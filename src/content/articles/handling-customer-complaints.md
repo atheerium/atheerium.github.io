@@ -79,7 +79,9 @@ I have templates for each category. Here are a few:
 4. **Track complaint patterns** -- if you get the same complaint 5 times, fix the process, not the individual complaint
 5. **Set boundaries** -- don't respond to complaints after 9 PM or before 9 AM
 
-## FAQs
+*Related: [Returns Refunds Algeria](/articles/returns-refunds-algeria/)*
+
+##s
 
 ### Q: How do I handle a customer who keeps complaining?
 A: Solve this complaint, then check their history. If they've complained on 3+ orders, they might not be a good fit for your business. Offer a refund and suggest they shop elsewhere.

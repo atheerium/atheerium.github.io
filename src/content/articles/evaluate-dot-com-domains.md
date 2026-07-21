@@ -75,3 +75,16 @@ The three criteria above have never led me to a bad purchase. The only domains I
 ---
 
 *Related:* [The Daily Domain Pipeline: How I Process 20,000 Expired Domains in 45 Seconds](/articles/expired-domains-pipeline/), [I Buy Domains That Sit Forever -- Here's What I Changed](/articles/domains-that-sit-forever/), [How I Analyze Domain Sales Data](/articles/domain-sales-analysis/), [The Most Underrated Domain Investing Skill Is Knowing When to Walk Away](/articles/walking-away-domains/)
+
+## FAQs
+
+### Q: What's the single most important factor in domain valuation?
+A: Buyer pool size. A domain can be short and brandable, but if nobody needs it, it won't sell. Always ask: who would buy this?
+
+### Q: How do you assess trademark risk?
+A: Check USPTO, EUIPO, and WIPO databases. If a matching trademark exists in the same industry, skip the domain. One lawsuit wipes out all your profits.
+
+### Q: Can a 9-letter .com sell for $5,000+?
+A: Yes, if it matches a strong keyword with commercial intent. Length matters less than buyer demand and premium keyword value.
+
+*Related: [Domain Valuation Myths](/articles/domain-valuation-myths/)*

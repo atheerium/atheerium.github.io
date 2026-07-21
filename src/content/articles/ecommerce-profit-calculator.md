@@ -99,3 +99,5 @@ A: Ignoring wilaya-based delivery costs and treating all orders as equal. A 2,00
 ---
 
 *Related: [Delivery Costs Are Eating Your Margins](/articles/delivery-costs-margins/) -- how to calculate per-destination delivery costs. [WhatsApp Order Chaos](/articles/whatsapp-order-chaos/) -- the operational systems that make pricing work.*
+
+*Related: [Cod Killing Margins](/articles/cod-killing-margins/)*

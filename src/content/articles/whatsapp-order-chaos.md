@@ -71,6 +71,11 @@ If you're doing under 10 orders a day, WhatsApp alone is fine. The chaos starts 
 
 If your team won't use a shared tool (some people prefer their own notebooks), you need a single person designated as "order entry" who logs everything. Someone has to own the system.
 
+
+---
+
+*Related: [Delivery Costs Margins](/articles/delivery-costs-margins/) · [Inventory Management Small Shops](/articles/inventory-management-small-shops/)*
+
 ## FAQs
 
 ### Q: What about payment tracking?

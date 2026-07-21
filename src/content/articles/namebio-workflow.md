@@ -71,3 +71,16 @@ I update the database monthly with new sales. Patterns shift, categories cool do
 ---
 
 *Related:* [How I Analyze Domain Sales Data](/articles/domain-sales-analysis/), [Domain Investing Workflow: From Finding Domains to Getting Paid](/articles/domain-investing-workflow/), [The Most Underrated Domain Investing Skill Is Knowing When to Walk Away](/articles/walking-away-domains/), [What I've Learned From 12 Months of Domain Flipping](/articles/selling-domains-lessons/)
+
+## FAQs
+
+### Q: Is NameBio worth the subscription?
+A: For active domain investors, yes. The ability to search comparable sales by keyword pattern, TLD, and price range pays for itself in better buying decisions.
+
+### Q: How recent should comparable sales be?
+A: Within 12 months ideally. Domain market values shift, and a sale from 2018 may not reflect current demand.
+
+### Q: Can I find comparable sales for completely new keyword combinations?
+A: Look for sales of similar prefixes, suffixes, or semantic equivalents. "Cloud" data helps value "Sky" domains. "Pay" data helps value "Send" domains.
+
+*Related: [Domain Daily Pipeline](/articles/domain-daily-pipeline/)*

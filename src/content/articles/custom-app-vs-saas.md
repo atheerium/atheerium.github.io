@@ -75,7 +75,9 @@ The custom tool paid for itself in 4 months. And I own it.
 
 If the answers are "no, yes, yes," custom is probably the right call.
 
-## FAQs
+*Related: [Supabase Free Tier](/articles/supabase-free-tier/)*
+
+##s
 
 ### Q: What about maintenance?
 A: Custom tools need maintenance. Budget 10-20% of build cost per year for updates, bug fixes, and hosting. Still usually cheaper than SaaS.

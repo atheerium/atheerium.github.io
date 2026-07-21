@@ -60,3 +60,14 @@ My advice: pick one orchestrator agent, one coding agent, and build MCP servers 
 ---
 
 *Related:* [How I Use AI Agents as My Coding Partner (Not Just a Chatbot)](/articles/ai-agents-coding-partner/), [I Used AI to Build a Prototype in 2 Hours -- and Spent 3 Weeks Cleaning It Up](/articles/vibe-coding-cleanup/), [I Built My Own Tools Because Off-the-Shelf Software Was Never Built for Me](/articles/build-your-own-tools/), [How I Use Supabase Free Tier to Run Multiple Business Apps](/articles/supabase-free-tier/)
+
+## FAQs
+
+### Q: Do I need coding skills to use AI coding agents?
+A: Basic understanding of code structure helps, but AI agents can scaffold entire projects from a description. You still need to know enough to review what they produce.
+
+### Q: What's the difference between ChatGPT and an AI coding agent?
+A: ChatGPT generates snippets you paste manually. Coding agents like Claude Code and OpenCode can read your files, run tests, commit code, and iterate autonomously.
+
+### Q: Which AI agent is best for domain investing work?
+A: Hermes for research and orchestration, Claude Code/OpenCode for actual implementation. Different tools for different parts of the workflow.

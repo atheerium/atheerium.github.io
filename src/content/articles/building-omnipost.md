@@ -86,3 +86,16 @@ The full source is available on my GitHub.
 ---
 
 *Related:* [Building a Daily Domain Pipeline](/articles/domain-daily-pipeline/), [How I Use Twitter as a Business Tool (Not a Distraction)](/articles/twitter-business-tool/), [How I Use AI Agents as My Coding Partner (Not Just a Chatbot)](/articles/ai-agents-coding-partner/), [How I Use GitHub to Run My Entire Business (For Free)](/articles/github-for-business/)
+
+*Related: [Automate Everything](/articles/automate-everything/)*
+
+##s
+
+### Q: Can I use OmniPost for my own content?
+A: Yes. The code is open source and designed to be forked. You just need API keys for each platform and a content directory.
+
+### Q: Which platform drives the most traffic?
+A: Dev.to articles bring sustained search traffic. Twitter/X drives bursts during posting windows. Bluesky is growing but still small.
+
+### Q: Do I need a separate server to run this?
+A: No. It runs as a cron job on any Linux machine. I use a $5 VPS, but it would work on a Raspberry Pi.

@@ -76,7 +76,9 @@ If you're targeting the global market from Algeria, price at global rates (your 
 
 If you're building for large Algerian enterprises (50+ employees), they pay global SaaS prices because they need enterprise features. The pricing gap only applies to small businesses.
 
-## FAQs
+*Related: [Business Without Bank Account](/articles/business-without-bank-account/)*
+
+##s
 
 ### Q: Can you build a sustainable SaaS at $10/month?
 A: If your costs are near zero (free hosting, AI-assisted development, solo founder), yes. You need 100 customers at $10/month for $1,000 MRR, which supports a solo founder in Algeria.

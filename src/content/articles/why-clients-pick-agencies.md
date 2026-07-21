@@ -89,7 +89,9 @@ If you're competing on Fiverr or Khamsat, this approach doesn't apply. Those pla
 
 If you're just starting out with zero portfolio, offer a discounted first project in exchange for a testimonial and case study. Then never discount again.
 
-## FAQs
+*Related: [Vibe Coding Cleanup](/articles/vibe-coding-cleanup/)*
+
+##s
 
 ### Q: How do I compete with agencies on trust when I'm in Algeria?
 A: Show the work. A demo link and a case study are worth more than an office address. Most clients don't care where you are if you communicate well.

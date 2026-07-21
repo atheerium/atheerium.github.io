@@ -90,7 +90,9 @@ If your product category has naturally high return rates (clothing sizes, electr
 
 If you sell low-value items (under 500 DZD), the pre-confirmation call costs more than the rejection. Accept the loss as part of the model.
 
-## FAQs
+*Related: [Ecommerce Costs Algeria](/articles/ecommerce-costs-algeria/)*
+
+##s
 
 ### Q: Do pre-confirmation calls annoy customers?
 A: Most appreciate it. "We're confirming your order before shipping" signals professionalism. Frame it as a service, not suspicion.

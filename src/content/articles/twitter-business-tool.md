@@ -60,7 +60,9 @@ The common thread: provide value publicly. Don't pitch. The pitches come to you.
 3. **Use lists.** Create lists for the people in your industry. Check lists, not the main feed.
 4. **Review analytics monthly.** What posts got engagement? What topics resonated? Double down on what works.
 
-## FAQs
+*Related: [Gulf Clients From Algeria](/articles/gulf-clients-from-algeria/)*
+
+##s
 
 ### Q: How many followers do I need for Twitter to generate business?
 A: 200 engaged followers in your niche are worth more than 10,000 random ones. Focus on relevance, not count.

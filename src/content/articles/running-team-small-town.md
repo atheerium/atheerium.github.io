@@ -86,7 +86,9 @@ If you have 50+ orders a day, Google Sheets becomes slow. You need a database-ba
 
 If your team doesn't read WhatsApp messages reliably, you need in-person communication or a different channel. WhatsApp only works if people check it.
 
-## FAQs
+*Related: [Daily Routine Three Businesses](/articles/daily-routine-three-businesses/)*
+
+##s
 
 ### Q: What if my team doesn't use Google Sheets?
 A: Start with a shared notebook (physical). Same system, different tool. Move to digital when they're ready.

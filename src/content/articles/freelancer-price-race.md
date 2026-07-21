@@ -71,7 +71,9 @@ If you're truly just starting out and need portfolio projects, charging less mak
 
 If you're in a hyper-competitive market where every client has 50 options for the same service, find a different niche. The low-price trap is a signal that you're offering a commodity. Either differentiate or leave the market.
 
-## FAQs
+*Related: [Freelance Pricing Algeria](/articles/freelance-pricing-algeria/)*
+
+##s
 
 ### Q: Won't I lose all my clients if I raise prices?
 A: You'll lose the ones you don't want. The clients who stay will be better. If you lose everyone, your service isn't differentiated enough.

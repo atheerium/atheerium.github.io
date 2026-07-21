@@ -68,7 +68,9 @@ Domains that stay in the portfolio:
 
 **Step 4:** If it doesn't sell at auction, let it drop. A domain that can't sell for $10 at auction is worth -$12/year to keep.
 
-## FAQs
+*Related: [Walking Away Domains](/articles/walking-away-domains/)*
+
+##s
 
 ### Q: What if the domain sells at auction for less than I want?
 A: Some money is better than zero money. A $200 auction sale covers 16 years of renewals on the domais you didn't register because you learned from the experience.

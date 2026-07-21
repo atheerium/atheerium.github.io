@@ -99,3 +99,5 @@ A: No. Start the conversation. Mention the domain, why it fits their business, a
 ---
 
 *Related: [Cold Email Lessons from Domain Outreach](/articles/cold-email-lessons/) -- the earlier lessons that taught me what was broken. [Selling Domains: 12 Months of Lessons](/articles/selling-domains-lessons/) -- the full scoreboard.*
+
+*Related: [Domain Negotiation Tactics](/articles/domain-negotiation-tactics/)*

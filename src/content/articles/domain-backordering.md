@@ -42,7 +42,9 @@ Both methods capture domains that no one backordered. These are the undervalued 
 3. **Register immediately.** When a good domain drops, it's available for the first few minutes. After that, someone else catches it.
 4. **For must-have domains:** Backorder from multiple services (NameJet, DropCatch) to increase odds. Expect to pay auction prices.
 
-## FAQs
+*Related: [Domain Daily Pipeline](/articles/domain-daily-pipeline/)*
+
+##s
 
 ### Q: What's the best backordering service?
 A: NameJet for .com domains. DropCatch for catching from specific registrars. No single service catches everything.

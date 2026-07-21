@@ -76,7 +76,9 @@ Telegram sourcing has a specific scam pattern:
 5. Build relationships with 2-3 reliable suppliers
 6. Negotiate better prices as order volume grows
 
-## FAQs
+*Related: [Algeria Ecommerce Website](/articles/algeria-ecommerce-website/)*
+
+##s
 
 ### Q: What's a reasonable minimum order quantity in Algeria?
 A: 10-50 units for most consumer goods. Larger for packaged foods and beverages.

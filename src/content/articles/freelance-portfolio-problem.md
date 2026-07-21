@@ -62,7 +62,9 @@ If you're applying on freelance platforms (Upwork, Mostaql) where clients scan 5
 
 If you do the same type of project repeatedly, one strong case study is enough. Don't list 5 similar projects. Pick the best one.
 
-## FAQs
+*Related: [How To Get First Freelance Client](/articles/how-to-get-first-freelance-client/)*
+
+##s
 
 ### Q: What if I don't have any client projects yet?
 A: Build something for yourself or a friend. Document the problem, solution, and result. It still counts as evidence.

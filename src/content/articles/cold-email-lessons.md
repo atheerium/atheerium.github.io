@@ -64,3 +64,14 @@ The math works if I can reach 0.5% human-to-sale conversion. I'm not there yet, 
 ---
 
 *Related:* [Your Domain Cold Emails Are Going to Spam -- Here's Why](/articles/domain-cold-emails/), [Domain Afternic Listing vs. Cold Outreach -- Which Actually Works?](/articles/afternic-vs-outreach/), [Your Domain Portfolio Is Too Big -- How to Focus and Actually Sell Something](/articles/portfolio-too-big/), [What I've Learned From 12 Months of Domain Flipping](/articles/selling-domains-lessons/)
+
+## FAQs
+
+### Q: How many cold emails should I send per day?
+A: Start at 20-30/day per domain. Scale up only when replies come in. Volume without personalization wastes good domains.
+
+### Q: What's a good reply rate for domain cold email?
+A: 1-3% is healthy. Above 5% means you're doing something right. Below 1%, change your subject line or targeting.
+
+### Q: Should I follow up if no one replies?
+A: Yes. One follow-up on day 5-7. If still nothing by day 30, route the domain to auction.
