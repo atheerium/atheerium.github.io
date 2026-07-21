@@ -30,6 +30,10 @@
   - Most people think automation means complex systems. My most impactful automation is a 200-line Python script that runs daily and saves me 5 hours a week.
   - 2026-07-21 / [["automation", "python", "business", "productivity", "beginner"]]
 
+- `/articles/avoid-scope-creep/` -- How I Structure Every Freelance Project to Avoid Scope Creep and Late Payments
+  - Fixed price, clear scope, milestone payments, and a change request process. The template I use for every project to protect both the client and myself.
+  - 2026-07-21 / [["freelancing", "contracts", "scope", "payments", "process"]]
+
 - `/articles/build-your-own-tools/` -- I Built My Own Tools Because Off-the-Shelf Software Was Never Built for Me
   - When you run a business outside the US/Europe, most SaaS doesn't fit. Here's why building your own tools is cheaper and faster than you think.
   - 2026-07-21 / [["business", "tools", "development", "saas", "automation"]]
