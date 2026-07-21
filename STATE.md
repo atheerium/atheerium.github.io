@@ -10,8 +10,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Total pages | **102** |
-| Articles published | **61** |
+| Total pages | **104** |
+| Articles published | **63** |
 | Research published | 1 |
 | Projects published | 1 |
 | Notes published | 1 |

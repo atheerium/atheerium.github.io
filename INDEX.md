@@ -166,6 +166,10 @@
   - How I escaped the race to the bottom by charging 3x more, losing 80% of leads, and making more money than ever.
   - 2026-07-21 / [["freelancing", "pricing", "business", "clients"]]
 
+- `/articles/gemini-3-6-flash-released/` -- Google Dropped Gemini 3.6 Flash Today — Here's What Actually Changed
+  - Three new models landed July 21: 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber. Better coding, lower price, and still no Pro. What it means for developers and agents.
+  - 2026-07-21 / [["ai", "gemini", "google", "models", "coding", "agents", "review"]]
+
 - `/articles/github-for-business/` -- How I Use GitHub to Run My Entire Business (For Free)
   - GitHub isn't just for code. Issues, Actions, Pages, and Wikis run my task management, automation, hosting, and documentation -- all on the free plan.
   - 2026-07-21 / [["github", "business", "automation", "productivity", "tools"]]
