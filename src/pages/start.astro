@@ -3,53 +3,85 @@ import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
 const articles = await getCollection('articles', ({ data }) => !data.draft);
-const best = articles.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+
+// Tag-based classification
+const domainTags = ["domains", "selling", "outreach", "namebio", "appraisal", "expired", "portfolio", "valuation"];
+const freelanceTags = ["freelancing", "clients", "freelance", "mostaql", "upwork", "pricing"];
+const businessTags = ["business", "ecommerce", "algeria", "delivery", "cod", "suppliers", "inventory", "whatsapp", "payments"];
+
+const isDomain = (a) => a.data.tags?.some(t => domainTags.includes(t));
+const isFreelance = (a) => a.data.tags?.some(t => freelanceTags.includes(t)) && !isDomain(a);
+const isBusiness = (a) => a.data.tags?.some(t => businessTags.includes(t)) && !isDomain(a) && !isFreelance(a);
+
+const bestDomain = articles.filter(isDomain).sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 6);
+const bestFreelance = articles.filter(isFreelance).sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 6);
+const bestBusiness = articles.filter(isBusiness).sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 6);
 ---
 
 <Layout title="Start Here">
 
 <h1>Start Here</h1>
 
-<p style="font-size: 1.1rem; color: #555;">
-  This site covers domain investing, AI agents, freelancing, and building tools from Algeria.
-  If you're new, here's where to begin.
+<p style="font-size: 1.1rem; color: #555; max-width: 600px;">
+  This site has <strong>61 articles</strong> across domain investing, freelancing, and running a business from Algeria.
+  Pick your audience below.
 </p>
 
-<h2>If you're here for domains</h2>
+<hr />
+
+<h2>I'm here for <strong>domain investing</strong></h2>
 <ol>
-  <li><a href="/articles/domain-investing-workflow/">Domain Investing Workflow</a> -- full process from finding domains to selling them</li>
-  <li><a href="/articles/evaluate-dot-com-domains/">How I Evaluate .com Domains</a> -- the 3-criteria framework I use</li>
+  <li><a href="/articles/domain-investing-workflow/">Domain Investing Workflow</a> -- full process from finding to selling</li>
+  <li><a href="/articles/evaluate-dot-com-domains/">How I Evaluate .com Domains</a> -- the 3-criteria framework</li>
   <li><a href="/articles/expired-domains-pipeline/">The Daily Domain Pipeline</a> -- processing 20,000 expired domains daily</li>
-  <li><a href="/articles/namebio-workflow/">NameBio Comparable Sales Workflow</a> -- how I research domain prices</li>
-  <li><a href="/domains/">Browse my portfolio</a> -- 23 domains for sale</li>
+  <li><a href="/articles/namebio-workflow/">NameBio Workflow</a> -- researching domain prices with comparable sales</li>
+  <li><a href="/articles/selling-domains-lessons/">12 Months of Domain Flipping</a> -- what I learned</li>
+  <li><a href="/articles/cold-email-lessons/">Cold Email Lessons</a> -- outreach that actually gets replies</li>
 </ol>
+<p><a href="/articles/"><strong>All {articles.filter(isDomain).length} domain articles &rarr;</strong></a></p>
 
-<h2>If you're here for AI / development</h2>
-<ol>
-  <li><a href="/articles/ai-agents-for-devs/">AI Agents for Developers</a> -- my stack and workflow</li>
-  <li><a href="/articles/building-omnipost/">Building OmniPost</a> -- multi-platform content bot</li>
-  <li><a href="/articles/domain-sales-analysis/">Domain Sales Analysis</a> -- analyzing 19,000 sales records</li>
-</ol>
+<hr />
 
-<h2>If you're here for freelancing</h2>
+<h2>I'm here for <strong>freelancing</strong></h2>
 <ol>
-  <li><a href="/services/">Services</a> -- what I build and pricing</li>
-  <li><a href="/contact/">Contact</a> -- WhatsApp, email, X DMs</li>
+  <li><a href="/articles/start-freelancing-algeria/">How to Start Freelancing in Algeria</a> -- complete beginner guide</li>
+  <li><a href="/articles/gulf-clients-from-algeria/">Getting Gulf Clients from Algeria</a> -- the exact playbook</li>
+  <li><a href="/articles/freelance-pricing-algeria/">Freelance Pricing from Algeria</a> -- what to charge and why</li>
+  <li><a href="/articles/mostaql-vs-upwork-algeria/">Mostaql vs Upwork</a> -- which platform to use</li>
+  <li><a href="/articles/business-without-bank-account/">Business Without a Bank Account</a> -- getting paid in Algeria</li>
+  <li><a href="/articles/best-tech-stack-freelancers/">Best Tech Stack for Freelancers</a> -- what to learn in 2026</li>
 </ol>
+<p><a href="/articles/"><strong>All {articles.filter(isFreelance).length} freelance articles &rarr;</strong></a></p>
+
+<hr />
+
+<h2>I'm here for <strong>small business / e-commerce</strong></h2>
+<ol>
+  <li><a href="/articles/whatsapp-order-chaos/">WhatsApp Order Chaos</a> -- the problem every Algerian business faces</li>
+  <li><a href="/articles/whatsapp-api-business/">WhatsApp API for Business</a> -- how to automate orders</li>
+  <li><a href="/articles/delivery-costs-margins/">Delivery Costs Are Eating Your Margins</a> -- how to fix it</li>
+  <li><a href="/articles/ecommerce-profit-calculator/">E-Commerce Profit Calculator</a> -- know your numbers</li>
+  <li><a href="/articles/ecommerce-costs-algeria/">E-Commerce Costs in Algeria</a> -- realistic breakdown</li>
+  <li><a href="/articles/cod-killing-margins/">Cash on Delivery Is Killing Margins</a> -- cut rejection rates</li>
+</ol>
+<p><a href="/articles/"><strong>All {articles.filter(isBusiness).length} business articles &rarr;</strong></a></p>
+
+<hr />
 
 <h2>All articles (newest first)</h2>
 <ul class="entry-list">
-  {best.map(entry => (
+  {articles.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 10).map(entry => (
     <li>
       <span class="date">{entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
-      <a href={`/articles/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a>
+      <a href={"/articles/" + entry.id.replace('.md', '') + "/"}>{entry.data.title}</a>
       <p class="desc">{entry.data.description}</p>
     </li>
   ))}
 </ul>
+<p><a href="/articles/">See all 61 articles &rarr;</a></p>
 
 <p style="margin-top: 2rem;">
-  <a href="/browse/">Browse full site index --</a>
+  <a href="/browse/">Browse full site index &rarr;</a>
 </p>
 
 </Layout>

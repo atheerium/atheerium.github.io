@@ -4,34 +4,101 @@ import { getCollection } from 'astro:content';
 
 const articles = (await getCollection('articles', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+
+// Tag-based audience classification
+const domainTags = ["domains", "selling", "outreach", "namebio", "appraisal", "expired", "portfolio", "valuation"];
+const freelanceTags = ["freelancing", "clients", "freelance", "mostaql", "upwork", "pricing"];
+const businessTags = ["business", "ecommerce", "algeria", "delivery", "cod", "suppliers", "inventory", "whatsapp", "payments"];
+
+const isDomain = (a) => a.data.tags?.some(t => domainTags.includes(t));
+const isFreelance = (a) => a.data.tags?.some(t => freelanceTags.includes(t)) && !isDomain(a);
+const isBusiness = (a) => a.data.tags?.some(t => businessTags.includes(t)) && !isDomain(a) && !isFreelance(a);
+
+const domainArticles = articles.filter(isDomain);
+const freelanceArticles = articles.filter(isFreelance);
+const businessArticles = articles.filter(isBusiness);
+const otherArticles = articles.filter(a => !isDomain(a) && !isFreelance(a) && !isBusiness(a));
 ---
 
 <Layout title="Articles">
   <h1>Articles</h1>
   <p style="color: #555; margin-bottom: 1.5rem;">
-    Evergreen writing on domain investing, freelancing, automation, and building in public.
+    {articles.length} articles on domain investing, freelancing, and running a business from Algeria.
   </p>
 
-  {articles.length > 0 ? (
+  <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2rem;">
+    <span class="tag" style="background: #d0d8f0; font-size: 0.85rem;">domains ({domainArticles.length})</span>
+    <span class="tag" style="background: #c8e6c9; font-size: 0.85rem;">freelancing ({freelanceArticles.length})</span>
+    <span class="tag" style="background: #ffe082; font-size: 0.85rem;">business ({businessArticles.length})</span>
+    <span class="tag" style="background: #e8e8e8; font-size: 0.85rem;">other ({otherArticles.length})</span>
+    <span class="tag" style="background: #2563eb; color: #fff; font-size: 0.85rem;">{articles.length} total</span>
+  </div>
+
+  <h2 id="domains" style="border-left: 3px solid #4a6cf7; padding-left: 0.75rem;">Domain Investing ({domainArticles.length})</h2>
+  {domainArticles.length > 0 ? (
     <ul class="entry-list">
-      {articles.map(entry => (
+      {domainArticles.map(entry => (
         <li>
           <span class="date">
             {entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
-            {entry.data.tags.length > 0 && (
-              <span class="tags" style="margin-left: 0.5rem;">
-                {entry.data.tags.map(tag => (
-                  <span class="tag">{tag}</span>
-                ))}
-              </span>
-            )}
           </span>
-          <a href={`/articles/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a>
+          <a href={"/articles/" + entry.id.replace('.md', '') + "/"}>{entry.data.title}</a>
           <p class="desc">{entry.data.description}</p>
         </li>
       ))}
     </ul>
   ) : (
-    <p style="color: #888;">No articles published yet. Coming soon.</p>
+    <p style="color: #888;">No domain articles yet.</p>
+  )}
+
+  <h2 id="freelance" style="border-left: 3px solid #43a047; padding-left: 0.75rem; margin-top: 2rem;">Freelancing ({freelanceArticles.length})</h2>
+  {freelanceArticles.length > 0 ? (
+    <ul class="entry-list">
+      {freelanceArticles.map(entry => (
+        <li>
+          <span class="date">
+            {entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+          </span>
+          <a href={"/articles/" + entry.id.replace('.md', '') + "/"}>{entry.data.title}</a>
+          <p class="desc">{entry.data.description}</p>
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p style="color: #888;">No freelance articles yet.</p>
+  )}
+
+  <h2 id="business" style="border-left: 3px solid #f9a825; padding-left: 0.75rem; margin-top: 2rem;">Small Business / E-Commerce ({businessArticles.length})</h2>
+  {businessArticles.length > 0 ? (
+    <ul class="entry-list">
+      {businessArticles.map(entry => (
+        <li>
+          <span class="date">
+            {entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+          </span>
+          <a href={"/articles/" + entry.id.replace('.md', '') + "/"}>{entry.data.title}</a>
+          <p class="desc">{entry.data.description}</p>
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p style="color: #888;">No business articles yet.</p>
+  )}
+
+  {otherArticles.length > 0 && (
+    <>
+      <h2 id="other" style="border-left: 3px solid #888; padding-left: 0.75rem; margin-top: 2rem;">General ({otherArticles.length})</h2>
+      <ul class="entry-list">
+        {otherArticles.map(entry => (
+          <li>
+            <span class="date">
+              {entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+            </span>
+            <a href={"/articles/" + entry.id.replace('.md', '') + "/"}>{entry.data.title}</a>
+            <p class="desc">{entry.data.description}</p>
+          </li>
+        ))}
+      </ul>
+    </>
   )}
 </Layout>

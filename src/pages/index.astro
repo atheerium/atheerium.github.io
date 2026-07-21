@@ -4,104 +4,115 @@ import { getCollection } from 'astro:content';
 
 const articles = await getCollection('articles', ({ data }) => !data.draft);
 const projects = await getCollection('projects', ({ data }) => !data.draft);
-const notes = await getCollection('notes', ({ data }) => !data.draft);
 const domains = await getCollection('domains', ({ data }) => !data.draft);
 
-// Most recent 3 of each
-const recentArticles = articles.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 3);
-const recentProjects = projects.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 3);
-const recentNotes = notes.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 3);
-const recentDomains = domains.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 3);
+// Tag-based audience classification
+const domainTags = ["domains", "selling", "outreach", "namebio", "appraisal", "expired", "portfolio", "valuation"];
+const freelanceTags = ["freelancing", "clients", "freelance", "mostaql", "upwork", "pricing"];
+const businessTags = ["business", "ecommerce", "algeria", "delivery", "cod", "suppliers", "inventory", "whatsapp", "payments"];
+
+const isDomainArticle = (a) => a.data.tags?.some(t => domainTags.includes(t));
+const isFreelanceArticle = (a) => a.data.tags?.some(t => freelanceTags.includes(t)) && !isDomainArticle(a);
+const isBusinessArticle = (a) => a.data.tags?.some(t => businessTags.includes(t)) && !isDomainArticle(a) && !isFreelanceArticle(a);
+
+const domainArticles = articles.filter(isDomainArticle);
+const freelanceArticles = articles.filter(isFreelanceArticle);
+const businessArticles = articles.filter(isBusinessArticle);
+
+// Best of each category
+const bestDomain = domainArticles.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 4);
+const bestFreelance = freelanceArticles.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 4);
+const bestBusiness = businessArticles.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 4);
 ---
 
 <Layout title="Home">
-  <section style="margin-bottom: 2rem;">
-    <h1 style="font-size: 2.5rem; margin-bottom: 0.25rem;">Atheerium</h1>
-    <p style="font-size: 1.1rem; color: #555; margin-top: 0;">
-      Domain investor · Freelance web developer · Building in public from Algeria
-  <div class="selling-badge">
-    <span>▶</span>
-    <span><strong>23 domains</strong> for sale</span>
-    <span style="color: #888; font-weight: 400;">|</span>
-    <a href="/domains/" style="color: #2563eb; font-weight: 600;">browse portfolio</a>
-    <span style="color: #888; font-weight: 400;">·</span>
-    <a href="/services/" style="color: #2563eb; font-weight: 600;">services</a>
-    <span style="color: #888; font-weight: 400;">·</span>
-    <a href="/contact/" style="color: #2563eb; font-weight: 600;">contact</a>
-  </div>
-
+  <section style="margin-bottom: 2.5rem; padding: 1.5rem; background: linear-gradient(135deg, #f0f4ff 0%, #e8f0fe 100%); border-radius: 12px;">
+    <h1 style="font-size: 2.2rem; margin: 0 0 0.5rem;">Atheerium</h1>
+    <p style="font-size: 1.1rem; color: #444; margin: 0 0 1rem; max-width: 600px;">
+      Domain investing, freelancing, and e-commerce — all from a laptop in Algeria.
+      <strong>61 articles</strong> on what actually works.
     </p>
+    <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+      <span class="selling-badge">
+        <span>▶</span>
+        <span><strong>23 domains</strong> for sale</span>
+        <span style="color: #888; font-weight: 400;">|</span>
+        <a href="/domains/" style="color: #2563eb; font-weight: 600;">browse portfolio</a>
+      </span>
+      <a href="/start/" style="display: inline-flex; align-items: center; gap: 0.3rem; background: #2563eb; color: #fff; padding: 0.4rem 1rem; border-radius: 6px; font-size: 0.85rem; font-weight: 600; text-decoration: none;">start here →</a>
+      <a href="/services/" style="display: inline-flex; align-items: center; gap: 0.3rem; background: #fff; border: 1px solid #2563eb; color: #2563eb; padding: 0.4rem 1rem; border-radius: 6px; font-size: 0.85rem; font-weight: 600; text-decoration: none;">hire me</a>
+    </div>
+  </section>
+
+  <section style="margin-bottom: 2rem;">
+    <h2 style="font-size: 1.1rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em;">Pick your path</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 0.5rem;">
+      <a href="/articles/" style="display: block; padding: 1rem; background: #f8faff; border: 1px solid #d0d8f0; border-radius: 8px; text-decoration: none; color: inherit;">
+        <strong style="font-size: 1.1rem; color: #1a1a2e;">Domain Investing</strong>
+        <p style="font-size: 0.85rem; color: #666; margin: 0.25rem 0 0;">{domainArticles.length} articles</p>
+      </a>
+      <a href="/articles/" style="display: block; padding: 1rem; background: #f0fff4; border: 1px solid #c8e6c9; border-radius: 8px; text-decoration: none; color: inherit;">
+        <strong style="font-size: 1.1rem; color: #1a1a2e;">Freelancing</strong>
+        <p style="font-size: 0.85rem; color: #666; margin: 0.25rem 0 0;">{freelanceArticles.length} articles</p>
+      </a>
+      <a href="/articles/" style="display: block; padding: 1rem; background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; text-decoration: none; color: inherit;">
+        <strong style="font-size: 1.1rem; color: #1a1a2e;">Small Business</strong>
+        <p style="font-size: 0.85rem; color: #666; margin: 0.25rem 0 0;">{businessArticles.length} articles</p>
+      </a>
+    </div>
   </section>
 
   <section style="margin-bottom: 2.5rem;">
-    <h2>latest articles</h2>
-    {recentArticles.length > 0 ? (
-      <ul class="entry-list">
-        {recentArticles.map(entry => (
-          <li>
-            <span class="date">{entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
-            <a href={`/articles/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a>
-            <p class="desc">{entry.data.description}</p>
-          </li>
-        ))}
-      </ul>
-    ) : (
-      <p style="color: #888;">No articles yet.</p>
-    )}
-    <a href="/articles/" style="font-size: 0.9rem;">all articles →</a>
+    <h2>for domain investors</h2>
+    <ul class="entry-list">
+      {bestDomain.map(entry => (
+        <li>
+          <span class="date">{entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+          <a href={"/articles/" + entry.id.replace('.md', '') + "/"}>{entry.data.title}</a>
+          <p class="desc">{entry.data.description}</p>
+        </li>
+      ))}
+    </ul>
+    <a href="/articles/" style="font-size: 0.9rem;">all {domainArticles.length} domain articles →</a>
   </section>
 
   <section style="margin-bottom: 2.5rem;">
-    <h2>projects</h2>
-    {recentProjects.length > 0 ? (
-      <ul class="entry-list">
-        {recentProjects.map(entry => (
-          <li>
-            <span class="date">{entry.data.status}</span>
-            <a href={`/projects/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a>
-            <p class="desc">{entry.data.description}</p>
-          </li>
-        ))}
-      </ul>
-    ) : (
-      <p style="color: #888;">No projects listed yet.</p>
-    )}
-    <a href="/projects/" style="font-size: 0.9rem;">all projects →</a>
+    <h2>for freelancers</h2>
+    <ul class="entry-list">
+      {bestFreelance.map(entry => (
+        <li>
+          <span class="date">{entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+          <a href={"/articles/" + entry.id.replace('.md', '') + "/"}>{entry.data.title}</a>
+          <p class="desc">{entry.data.description}</p>
+        </li>
+      ))}
+    </ul>
+    <a href="/articles/" style="font-size: 0.9rem;">all {freelanceArticles.length} freelance articles →</a>
   </section>
 
   <section style="margin-bottom: 2.5rem;">
-    <h2>domains</h2>
-    {recentDomains.length > 0 ? (
-      <ul class="entry-list">
-        {recentDomains.map(entry => (
-          <li>
-            <span class="date">{entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
-            <a href={`/domains/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a>
-            <p class="desc">{entry.data.description}</p>
-          </li>
-        ))}
-      </ul>
-    ) : (
-      <p style="color: #888;">No domains listed yet.</p>
-    )}
-    <a href="/domains/" style="font-size: 0.9rem;">all domains →</a>
+    <h2>for small business owners</h2>
+    <ul class="entry-list">
+      {bestBusiness.map(entry => (
+        <li>
+          <span class="date">{entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+          <a href={"/articles/" + entry.id.replace('.md', '') + "/"}>{entry.data.title}</a>
+          <p class="desc">{entry.data.description}</p>
+        </li>
+      ))}
+    </ul>
+    <a href="/articles/" style="font-size: 0.9rem;">all {businessArticles.length} business articles →</a>
   </section>
 
-  <section style="margin-bottom: 2.5rem;">
-    <h2>recent notes</h2>
-    {recentNotes.length > 0 ? (
-      <ul class="entry-list">
-        {recentNotes.map(entry => (
-          <li>
-            <span class="date">{entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
-            <a href={`/notes/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a>
-            <p class="desc">{entry.data.description}</p>
-          </li>
-        ))}
-      </ul>
-    ) : (
-      <p style="color: #888;">No notes yet.</p>
-    )}
-    <a href="/notes/" style="font-size: 0.9rem;">all notes →</a>
+  <section style="margin-bottom: 2.5rem; padding: 1rem; background: #f9f9f9; border-radius: 8px;">
+    <h2 style="margin-top: 0;">quick links</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.5rem;">
+      <a href="/start/" style="font-size: 0.9rem;">start here</a>
+      <a href="/browse/" style="font-size: 0.9rem;">browse all pages</a>
+      <a href="/domains/" style="font-size: 0.9rem;">domain portfolio</a>
+      <a href="/projects/" style="font-size: 0.9rem;">projects</a>
+      <a href="/services/" style="font-size: 0.9rem;">freelance services</a>
+      <a href="/contact/" style="font-size: 0.9rem;">contact</a>
+    </div>
   </section>
 </Layout>
