@@ -30,6 +30,10 @@
   - What I've learned from sending 3,000+ cold emails for domain sales -- what works, what doesn't, and what I'd do differently.
   - 2026-07-19 / [["outreach", "sales", "email", "domains"]]
 
+- `/articles/custom-app-vs-saas/` -- I Built a $600 App That Replaced a $200/Month SaaS -- And It's Better
+  - When does it make sense to build a custom tool instead of paying for software? Here's a framework for deciding -- and when custom wins.
+  - 2026-07-21 / [["business", "development", "saas", "tools", "decision-making"]]
+
 - `/articles/delivery-costs-margins/` -- Delivery Costs Are Eating Your Margins -- Here's How to Fix It
   - Most Algerian e-commerce businesses lose money on delivery without realizing it. Here's how to calculate true delivery costs and pick the right courier for every order.
   - 2026-07-21 / [["business", "algeria", "delivery", "ecommerce", "logistics"]]
