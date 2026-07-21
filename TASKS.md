@@ -17,12 +17,15 @@
 
 ---
 
-## Phase 2 — Internal Linking & SEO Fixes (Current)
+## Phase 2 — Internal Linking & SEO Fixes ✅ (Complete)
 
-- [ ] **Fix internal linking** — bump 49 articles from 1 link to 2+
-- [ ] **Add FAQ sections** to 10 original articles (missing GEO signals)
-- [ ] Connect Google Search Console
-- [ ] Install Cloudflare Web Analytics
+- [x] **Fix internal linking** — all 61 articles now have 2+ unique links
+- [x] **Add FAQ sections** to 10 original articles (now all 61 have GEO-friendly FAQ)
+- [x] Connect Google Search Console — meta tag installed
+- [x] Install Cloudflare Web Analytics — script in Layout.astro
+- [x] **Redesign homepage** — audience-led hero, path cards, featured picks
+- [x] **Improve /start/** — 6 curated picks per audience
+- [x] **Improve /articles/** — audience sections with colored headers
 
 ---
 
