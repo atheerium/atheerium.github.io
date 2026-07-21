@@ -6,6 +6,10 @@
 
 ## Articles
 
+- `/articles/afternic-vs-outreach/` -- Domain Afternic Listing vs. Cold Outreach -- Which Actually Works?
+  - After 12 months of trying both, here's what generates replies and what generates silence -- and how to combine them.
+  - 2026-07-21 / [["domains", "selling", "outreach", "marketplace", "strategy"]]
+
 - `/articles/ai-agents-coding-partner/` -- How I Use AI Agents as My Coding Partner (Not Just a Chatbot)
   - Most developers use ChatGPT to generate code snippets. I use AI agents to architect, implement, and ship entire features. Here's the exact workflow.
   - 2026-07-21 / [["ai", "agents", "development", "workflow", "automation"]]
