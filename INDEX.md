@@ -178,6 +178,10 @@
   - Registering 25 domains and giving each 10% effort guarantees you sell nothing. Here's how to identify your top 3 and double down until they sell.
   - 2026-07-21 / [["domains", "portfolio", "strategy", "sales", "focus"]]
 
+- `/articles/returns-refunds-algeria/` -- How to Handle Returns and Refunds in an Algerian E-commerce Business
+  - Returns are inevitable. Here's the policy and process that keeps customers happy without destroying your margins.
+  - 2026-07-21 / [["business", "ecommerce", "returns", "refunds", "algeria"]]
+
 - `/articles/running-team-small-town/` -- The Systems That Let Me Run a Business with a Team in a Small Town
   - Aflou has no co-working spaces, no reliable courier aggregation, and no tech talent pool. Here's how we built systems that work anyway.
   - 2026-07-21 / [["business", "operations", "team", "algeria", "systems"]]
