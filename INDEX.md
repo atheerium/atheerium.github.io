@@ -138,6 +138,10 @@
   - No portfolio, no network, no reputation. Here's exactly how I landed the first project that started my freelance career.
   - 2026-07-21 / [["freelancing", "beginner", "getting-started", "clients", "first-project"]]
 
+- `/articles/mostaql-vs-upwork-algeria/` -- Mostaql vs. Upwork for Algerian Freelancers -- Which Platform Pays Better?
+  - I've used both platforms extensively from Algeria. Here's the honest comparison of rates, fees, client quality, and actual earnings.
+  - 2026-07-21 / [["freelancing", "platforms", "mostaql", "upwork", "algeria"]]
+
 - `/articles/namebio-workflow/` -- NameBio Workflow: Finding Comparable Domain Sales
   - How I use a 19,000-record domain sales database to price domains and spot market patterns.
   - 2026-07-21 / [["domains", "namebio", "data", "pricing", "research"]]
