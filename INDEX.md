@@ -22,6 +22,10 @@
   - How I built an automated bot that posts to Twitter, Bluesky, and Dev.to from a single content pipeline.
   - 2026-07-21 / [["projects", "automation", "bots", "twitter", "bluesky"]]
 
+- `/articles/business-without-bank-account/` -- I Built an Online Business in Algeria Without a Bank Account -- Here's How
+  - International payments, PayPal blocks, and frozen cards. How I receive, convert, and withdraw money as an Algerian freelancer and domain investor.
+  - 2026-07-21 / [["freelancing", "algeria", "payments", "banking", "crypto", "finance"]]
+
 - `/articles/cod-killing-margins/` -- Cash on Delivery Is Killing Your Margins (And What to Do About It)
   - COD rejection rates of 10-15% silently destroy e-commerce profitability. Here's a system to cut rejections by half without losing sales.
   - 2026-07-21 / [["business", "ecommerce", "algeria", "payments", "cod", "cash-flow"]]
