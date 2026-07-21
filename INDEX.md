@@ -18,6 +18,10 @@
   - What I've learned from sending 3,000+ cold emails for domain sales -- what works, what doesn't, and what I'd do differently.
   - 2026-07-19 / [["outreach", "sales", "email", "domains"]]
 
+- `/articles/domain-cold-emails/` -- Your Domain Cold Emails Are Going to Spam -- Here's Why
+  - After sending 3,000 cold emails for domain sales with a sub-1% reply rate, here's what I learned about deliverability, targeting, and getting humans to respond.
+  - 2026-07-21 / [["domains", "outreach", "sales", "email", "cold-email"]]
+
 - `/articles/domain-daily-pipeline/` -- Building a Daily Domain Pipeline
   - How I automate expired domain discovery -- fetching 20,000 domains per day, filtering, scoring, and ranking in under 60 seconds.
   - 2026-07-20 / [["domains", "automation", "pipeline", "tools"]]
