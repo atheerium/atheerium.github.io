@@ -78,6 +78,10 @@
   - How unorganized order management on WhatsApp leads to missed sales, double-bookings, and angry customers -- and a simple fix that costs $0.
   - 2026-07-21 / [["business", "small-business", "operations", "algeria", "ecommerce"]]
 
+- `/articles/why-clients-pick-agencies/` -- Why Your Web Development Client Chose an Agency Over You (And How to Win Next Time)
+  - It wasn't about price. It was about trust, process, and perceived risk. Here's how I started winning projects against agencies from Algeria.
+  - 2026-07-21 / [["freelancing", "sales", "clients", "agencies", "positioning"]]
+
 ## Research
 
 - `/research/healthcare-domain-market/` -- Healthcare Domain Market -- Preliminary Findings
