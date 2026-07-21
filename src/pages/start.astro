@@ -23,7 +23,7 @@ const bestBusiness = articles.filter(isBusiness).sort((a, b) => b.data.pubDate.g
 <h1>Start Here</h1>
 
 <p style="font-size: 1.1rem; color: #555; max-width: 600px;">
-  This site has <strong>61 articles</strong> across domain investing, freelancing, and running a business from Algeria.
+  This site has <strong>{articles.length} articles</strong> across domain investing, freelancing, and running a business from Algeria.
   Pick your audience below.
 </p>
 
@@ -78,7 +78,7 @@ const bestBusiness = articles.filter(isBusiness).sort((a, b) => b.data.pubDate.g
     </li>
   ))}
 </ul>
-<p><a href="/articles/">See all 61 articles &rarr;</a></p>
+<p><a href="/articles/">See all {articles.length} articles &rarr;</a></p>
 
 <p style="margin-top: 2rem;">
   <a href="/browse/">Browse full site index &rarr;</a>
