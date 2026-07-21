@@ -101,10 +101,11 @@ When adding a section, update BOTH nav (in `Layout.astro`) and footer.
 
 When starting work on this repo for the first time in a session:
 
-1. Read this file (AGENTS.md) for project conventions
-2. Read STATE.md for current site inventory and pending work
-3. Read the relevant content collection(s) before editing
-4. Run `pnpm build` before committing to verify no errors
+1. Read `STATE.md` for the current site inventory and pending work
+2. Read `TASKS.md` for the active task list and priorities
+3. Read this file (AGENTS.md) for project conventions
+4. Read the relevant content collection(s) before editing
+5. Run `pnpm build` before committing to verify no errors
 
 ## Commands
 
