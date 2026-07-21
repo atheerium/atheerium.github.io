@@ -234,6 +234,10 @@
   - No degree, no experience, no network. Here's exactly how to start freelancing from Algeria, step by step.
   - 2026-07-21 / [freelancing, algeria, beginner, getting-started, guide]
 
+- `/articles/state-of-bug-bounty-2026/` -- The State of Bug Bounty in 2026: AI Agents Are Finding Everything and Breaking Everything
+  - AI agents found 34 vulnerabilities in TON in 3 days, 22 in Firefox in 2 weeks. Programs are drowning in reports. Here's what's happening and who's actually getting paid.
+  - 2026-07-22 / [security, bug-bounty, ai, agents, hackerone, claude-code, automation, review]
+
 - `/articles/stop-building-wrong-things/` -- I Spent 6 Months Building Features Nobody Asked For -- Here's What I Changed
   - Domain appraisal tools, content generation features, and automation systems I built that nobody used. The hard lesson about building what's needed vs what's cool.
   - 2026-07-21 / [business, building, mvp, validation, lessons]
