@@ -10,6 +10,10 @@
   - After 12 months of trying both, here's what generates replies and what generates silence -- and how to combine them.
   - 2026-07-21 / [["domains", "selling", "outreach", "marketplace", "strategy"]]
 
+- `/articles/ai-agents-buying-domains/` -- AI Agents Are Starting to Spend Money — Here's What That Means for Domain Investors
+  - AI agents bought $8 billion worth of stuff autonomously in 2026. Domains, APIs, and SaaS are on the list. Here's how to position for agent-driven commerce.
+  - 2026-07-21 / [["domains", "ai", "agents", "payments", "future", "strategy", "selling"]]
+
 - `/articles/ai-agents-coding-partner/` -- How I Use AI Agents as My Coding Partner (Not Just a Chatbot)
   - Most developers use ChatGPT to generate code snippets. I use AI agents to architect, implement, and ship entire features. Here's the exact workflow.
   - 2026-07-21 / [["ai", "agents", "development", "workflow", "automation"]]
