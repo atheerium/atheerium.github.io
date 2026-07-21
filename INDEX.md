@@ -50,6 +50,10 @@
   - Actual numbers, actual outcomes -- the wins, the losses, and the hard lessons from a year of domain investing from Algeria.
   - 2026-07-21 / [["domains", "lessons", "results", "flipping", "strategy"]]
 
+- `/articles/whatsapp-order-chaos/` -- WhatsApp Order Chaos Is Costing Your Small Business Money
+  - How unorganized order management on WhatsApp leads to missed sales, double-bookings, and angry customers -- and a simple fix that costs $0.
+  - 2026-07-21 / [["business", "small-business", "operations", "algeria", "ecommerce"]]
+
 ## Research
 
 - `/research/healthcare-domain-market/` -- Healthcare Domain Market -- Preliminary Findings
