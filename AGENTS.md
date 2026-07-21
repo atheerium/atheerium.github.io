@@ -1,5 +1,7 @@
 # atheerium.github.io — Operating Manual for AI Agents
 
+> **First thing:** Read `STATE.md` for the current site inventory and what's pending. This file covers conventions and workflow.
+
 ## Project Philosophy
 
 - **Knowledge-first.** Every page should be useful weeks after it's written. No filler.
@@ -73,8 +75,8 @@ When creating pages, pass these to `<Layout>`:
 
 ## Navigation
 
-**Nav bar** (top): Home · articles · research · projects · domains · notes · about · now  
-**Footer**: adds two links not in nav: tools, resources
+**Nav bar** (top): Home · articles · research · projects · domains [23 for sale] · notes · services · contact · about
+**Footer**: adds services, contact, tools, resources, now
 
 When adding a section, update BOTH nav (in `Layout.astro`) and footer.
 
@@ -85,6 +87,24 @@ When adding a section, update BOTH nav (in `Layout.astro`) and footer.
 - JSON-LD structured data (BlogPosting or WebPage) generated automatically
 - RSS feed at `/rss.xml` includes articles + research + notes
 - `robots.txt` allows all, points to `/sitemap-index.xml`
+- **Site is NOT yet submitted to Google Search Console** — do not claim it's indexed
+
+## Writing Guidelines
+
+- Write in plain, direct English. No marketing fluff, no AI-isms.
+- Em dashes break the Astro YAML frontmatter parser — use `--` (two hyphens) inside `---` blocks instead.
+- Categories are broad (see STATE.md). Tags are specific and grow organically.
+- Every article should link to 2-3 other pages internally.
+- Preferred reading level: clear enough for a domain investor, technical enough for a developer.
+
+## Initialization Checklist for New Agents
+
+When starting work on this repo for the first time in a session:
+
+1. Read this file (AGENTS.md) for project conventions
+2. Read STATE.md for current site inventory and pending work
+3. Read the relevant content collection(s) before editing
+4. Run `pnpm build` before committing to verify no errors
 
 ## Commands
 
