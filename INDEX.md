@@ -190,6 +190,10 @@
   - Most inventory systems cost too much for small Algerian businesses. Here's a paper-to-digital system that scales from 10 products to 500.
   - 2026-07-21 / [["business", "ecommerce", "inventory", "operations", "algeria"]]
 
+- `/articles/laguna-s-2-1-free-opencode/` -- Laguna S 2.1 Free Is Now on OpenCode Zen — Why This Open-Weight Model Is a Big Deal
+  - Poolside's 118B MoE model landed today with open weights, 1M context, and a free endpoint. It punches way above its 8B active parameters on coding benchmarks.
+  - 2026-07-21 / [["ai", "models", "opencode", "coding", "open-source", "agents", "review"]]
+
 - `/articles/managing-multiple-income-streams/` -- How I Manage 3 Income Streams From One Laptop in Algeria
   - Domain investing, freelancing, and e-commerce — three different businesses, one laptop, and a system that keeps them from collapsing into chaos.
   - 2026-07-21 / [["business", "productivity", "systems", "income", "algeria"]]
