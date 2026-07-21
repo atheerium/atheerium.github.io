@@ -146,6 +146,10 @@
   - How I find, pitch, and win Gulf clients from Algeria -- and how I get paid without a Gulf bank account.
   - 2026-07-21 / [["freelancing", "gulf", "algeria", "clients", "sales", "payments"]]
 
+- `/articles/handling-customer-complaints/` -- How to Handle Customer Complaints on WhatsApp (Without Losing Your Sanity)
+  - The angry message at 9 PM. The 'where is my order?' at 11 PM. The refund demand with screenshots. Here's the system that keeps customers happy and me calm.
+  - 2026-07-21 / [["business", "customer-service", "whatsapp", "complaints", "algeria"]]
+
 - `/articles/how-to-get-first-freelance-client/` -- How I Got My First Freelance Client With Zero Experience
   - No portfolio, no network, no reputation. Here's exactly how I landed the first project that started my freelance career.
   - 2026-07-21 / [["freelancing", "beginner", "getting-started", "clients", "first-project"]]
