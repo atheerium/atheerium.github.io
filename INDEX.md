@@ -150,6 +150,10 @@
   - No portfolio, no network, no reputation. Here's exactly how I landed the first project that started my freelance career.
   - 2026-07-21 / [["freelancing", "beginner", "getting-started", "clients", "first-project"]]
 
+- `/articles/inventory-management-small-shops/` -- Inventory Management for Small Shops (Without Expensive Software)
+  - Most inventory systems cost too much for small Algerian businesses. Here's a paper-to-digital system that scales from 10 products to 500.
+  - 2026-07-21 / [["business", "ecommerce", "inventory", "operations", "algeria"]]
+
 - `/articles/mostaql-vs-upwork-algeria/` -- Mostaql vs. Upwork for Algerian Freelancers -- Which Platform Pays Better?
   - I've used both platforms extensively from Algeria. Here's the honest comparison of rates, fees, client quality, and actual earnings.
   - 2026-07-21 / [["freelancing", "platforms", "mostaql", "upwork", "algeria"]]
