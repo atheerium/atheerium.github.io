@@ -46,6 +46,10 @@
   - International payments, PayPal blocks, and frozen cards. How I receive, convert, and withdraw money as an Algerian freelancer and domain investor.
   - 2026-07-21 / [["freelancing", "algeria", "payments", "banking", "crypto", "finance"]]
 
+- `/articles/choosing-domain-registrar/` -- Choosing a Domain Registrar: What Actually Matters for Domain Investors
+  - GoDaddy vs. Namecheap vs. Cloudflare vs. Porkbun. After registering 25 domains across 4 registrars, here's the honest comparison.
+  - 2026-07-21 / [["domains", "registrar", "tools", "comparison", "tips"]]
+
 - `/articles/cod-killing-margins/` -- Cash on Delivery Is Killing Your Margins (And What to Do About It)
   - COD rejection rates of 10-15% silently destroy e-commerce profitability. Here's a system to cut rejections by half without losing sales.
   - 2026-07-21 / [["business", "ecommerce", "algeria", "payments", "cod", "cash-flow"]]
