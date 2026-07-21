@@ -42,6 +42,10 @@
   - How I automate expired domain discovery -- fetching 20,000 domains per day, filtering, scoring, and ranking in under 60 seconds.
   - 2026-07-20 / [["domains", "automation", "pipeline", "tools"]]
 
+- `/articles/domain-flipping-reality/` -- I Thought Domain Flipping Would Make Me Rich Quick -- Here's What Actually Happened
+  - The YouTube videos make it look easy. 12 months and 25 domains later, here's the unglamorous reality of building a domain portfolio from zero.
+  - 2026-07-21 / [["domains", "investing", "reality", "expectations", "beginner"]]
+
 - `/articles/domain-investing-workflow/` -- Domain Investing Workflow: From Finding Domains to Getting Paid
   - My end-to-end process for domain investing -- how I find, evaluate, acquire, price, and sell domains from Algeria.
   - 2026-07-21 / [["domains", "workflow", "investing", "flipping"]]
