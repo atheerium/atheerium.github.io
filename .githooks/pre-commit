@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Pre-commit hook: auto-regenerate INDEX.md before every commit.
+# Installed via: git config core.hooksPath .githooks
+
+set -euo pipefail
+
+REPO="$(cd "$(dirname "$0")/.." && pwd)"
+
+# Only run if INDEX.md or content files changed
+CHANGED_CONTENT=$(git diff --cached --name-only | grep -c -E '^(src/content/|scripts/generate-index.py)' || true)
+
+if [ "$CHANGED_CONTENT" -gt 0 ]; then
+    echo "  [pre-commit] Content changed - regenerating INDEX.md..."
+    python3 "$REPO/scripts/generate-index.py"
+    git add "$REPO/INDEX.md"
+fi

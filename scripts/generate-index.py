@@ -24,6 +24,12 @@ def parse_field(frontmatter, key):
     if m: return m.group(1).strip().strip('"').strip("'")
     return ""
 
+def format_tags(raw):
+    """Convert tag string from frontmatter to readable format."""
+    if not raw:
+        return ""
+    return raw.strip("[]").replace('"', "").replace("'", "").strip()
+
 def parse_frontmatter(filepath):
     """Extract frontmatter section between --- delimiters."""
     with open(filepath) as f:
@@ -73,7 +79,10 @@ def build_index():
             if pubdate or tags:
                 bits = []
                 if pubdate: bits.append(pubdate)
-                if tags: bits.append(f"[{tags}]")
+                if tags:
+                    cleaned = format_tags(tags)
+                    if cleaned:
+                        bits.append(f"[{cleaned}]")
                 lines.append(f"  - {' / '.join(bits)}")
             lines.append("")
 

@@ -76,6 +76,13 @@
 - Inline: `#e8e8e8` bg, `0.9em` size, `3px` border-radius
 - Block (pre): `#0d1117` bg, `#e6edf3` text, `1rem` padding, `8px` border-radius
 
+### Table
+- Border collapse, full-width, margin 1.5rem top/bottom
+- Header background `#f5f5f5`, padding 0.75rem, solid border
+- Cell padding 0.75rem, alternate row background
+- Hover: `#f0f4ff`
+- Description: `0.9rem`, `#555`, margin-top 0.25rem
+
 ### Navigation
 - Horizontal flex row with `flex-wrap: wrap`, white background, bottom border
 - Site title on the left (`margin-right: auto`)

@@ -122,10 +122,9 @@ There are NO lint, format, or typecheck scripts. `pnpm build` is the sole verifi
 
 1. Check `INDEX.md` or visit `/browse/` to verify the topic hasn't been published
 2. Write Markdown in `src/content/<collection>/`
-3. Run `python3 scripts/generate-index.py` to update INDEX.md
-4. `pnpm dev` to preview
-5. Commit and push to `main`
-4. Site auto-deploys via GitHub Actions (build → deploy to Pages)
+3. **INDEX.md auto-regenerates** on commit (pre-commit hook). Manual: `python3 scripts/generate-index.py`
+4. **Quick publish:** `bash scripts/publish.sh "Commit message"` — index + build + commit + push in one step
+5. Site auto-deploys via GitHub Actions (build → deploy to Pages)
 
 Never commit `dist/`, `.astro/`, or `node_modules/`.
 
