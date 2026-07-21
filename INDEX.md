@@ -122,6 +122,10 @@
   - How I find, pitch, and win Gulf clients from Algeria -- and how I get paid without a Gulf bank account.
   - 2026-07-21 / [["freelancing", "gulf", "algeria", "clients", "sales", "payments"]]
 
+- `/articles/how-to-get-first-freelance-client/` -- How I Got My First Freelance Client With Zero Experience
+  - No portfolio, no network, no reputation. Here's exactly how I landed the first project that started my freelance career.
+  - 2026-07-21 / [["freelancing", "beginner", "getting-started", "clients", "first-project"]]
+
 - `/articles/namebio-workflow/` -- NameBio Workflow: Finding Comparable Domain Sales
   - How I use a 19,000-record domain sales database to price domains and spot market patterns.
   - 2026-07-21 / [["domains", "namebio", "data", "pricing", "research"]]
