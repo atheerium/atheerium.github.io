@@ -50,6 +50,10 @@
   - When does it make sense to build a custom tool instead of paying for software? Here's a framework for deciding -- and when custom wins.
   - 2026-07-21 / [["business", "development", "saas", "tools", "decision-making"]]
 
+- `/articles/daily-routine-three-businesses/` -- The Daily Routine That Runs Three Businesses From One Laptop
+  - Domain investing, freelancing, and e-commerce -- all from a laptop in a small Algerian town. Here's my exact daily schedule.
+  - 2026-07-21 / [["business", "productivity", "routine", "systems", "time-management"]]
+
 - `/articles/delivery-costs-margins/` -- Delivery Costs Are Eating Your Margins -- Here's How to Fix It
   - Most Algerian e-commerce businesses lose money on delivery without realizing it. Here's how to calculate true delivery costs and pick the right courier for every order.
   - 2026-07-21 / [["business", "algeria", "delivery", "ecommerce", "logistics"]]
