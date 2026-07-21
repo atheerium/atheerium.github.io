@@ -2,105 +2,127 @@
 
 ## Project Philosophy
 
-- **Knowledge-first.** Every page should be useful weeks after it's written. No filler, no fluff.
-- **Markdown-native.** Content lives in `src/content/`. Write in Markdown, Astro renders it.
-- **Fast and minimal.** No unnecessary JavaScript, no CSS frameworks, no client-side complexity.
-- **Build in public.** This is a public knowledge base — write as if readers are watching.
+- **Knowledge-first.** Every page should be useful weeks after it's written. No filler.
+- **Markdown-native.** Content lives in `src/content/<collection>/`. Write in Markdown, Astro renders it.
+- **Fast and minimal.** No unnecessary JS, no CSS frameworks, no client-side complexity.
+- **Build in public.** Write as if readers are watching.
 
-## Content Structure
+## Tech Stack
+
+- **Framework:** Astro 7 (`"astro": "^7.1.3"`)
+- **Package manager:** pnpm 11 (CI uses `pnpm install --frozen-lockfile`)
+- **Node:** `>=22.12.0`
+- **Hosting:** GitHub Pages (via `actions/deploy-pages@v4`)
+- **Integrations:** `@astrojs/sitemap` (auto-generates sitemap), `@astrojs/rss` (used at `/rss.xml`)
+- **TypeScript:** `astro/tsconfigs/strict`
+
+## Content Collections (5)
 
 ```
 src/content/
-├── articles/    # Evergreen writing — domain investing, freelancing, automation
-├── research/    # Original analysis — market studies, keyword reports, data
-├── domains/     # Domain investing — portfolio, sales, case studies
-├── projects/    # Tools and systems I've built
-└── notes/       # Quick notes, observations, how-to guides
+├── articles/     # Evergreen writing — domain investing, freelancing, automation
+├── research/     # Original analysis — market studies, keyword reports, data
+├── domains/      # Domain portfolio, sales, case studies
+├── projects/     # Tools and systems I've built
+└── notes/        # Quick notes, observations, how-to guides
 ```
 
-## Frontmatter Format
+Collection schema is in `src/content.config.ts` (NOT `src/content/config.ts`).
 
-Every content file **must** start with:
+## Frontmatter
+
+All collections share these required fields:
 
 ```yaml
 ---
-title: "Title Here"
-description: "One sentence summary — appears in listings and SEO."
+title: "Page Title"
+description: "One sentence — appears in listings and SEO."
 pubDate: YYYY-MM-DD
 tags: ["tag1", "tag2"]
-draft: false  # Set true to hide from production
+draft: false  # hides from production
 ---
 ```
 
-Projects also accept:
+**Optional on articles, research, domains, projects:** `updatedDate: YYYY-MM-DD`  
+**Projects only also accept:**
 ```yaml
 status: "active" | "archived" | "planned"
 url: "https://..."
 ```
 
-## Naming Conventions
+Notes collection does NOT have `updatedDate` or `status`/`url`.
 
-- Files: `kebab-case.md`
-- Slugs match filenames (Astro auto-derives from filename)
-- Tags: lowercase, single words or hyphenated
+## URL Conventions (Critical)
 
-## Deployment
+- `trailingSlash: 'always'` in `astro.config.mjs` — all internal links MUST end with `/`
+- `build.format: 'directory'` — detail pages generate `/section/slug/` directories
+- Slugs are derived from filenames (kebab-case) with `.md` stripped: `my-post.md` → `.../my-post/`
+- All `[...slug].astro` pages use the same pattern: `getCollection()` → filter drafts → `getStaticPaths()` → `render()`
 
-- Every push to `main` triggers GitHub Actions
-- Builds with `pnpm build` → deploys `dist/` to GitHub Pages
-- Never commit `dist/`, `.astro/`, or `node_modules/`
-- Verify locally: `pnpm build` before pushing
+## Layout.astro Props
 
-## SEO Requirements
+When creating pages, pass these to `<Layout>`:
 
-Every page must have:
-1. Unique `title` (will render as "Title — Atheerium")
-2. `description` tag
-3. Canonical URL (auto-configured)
-4. Open Graph metadata (auto-from frontmatter)
-5. Tags as keywords (auto-from frontmatter)
+| Prop | Required? | Notes |
+|---|---|---|
+| `title` | yes | Renders as "Title — Atheerium" |
+| `description` | no | Defaults to site description |
+| `image` | no | OG image path, default `/og-default.png` |
+| `pubDate` | no | Triggers BlogPosting JSON-LD if present |
+| `tags` | no | Rendered as `<meta keywords>` |
 
-The `Layout.astro` component handles all of the above. Just provide correct frontmatter.
+## Navigation
 
-## Design Principles
+**Nav bar** (top): Home · articles · research · projects · domains · notes · about · now  
+**Footer**: adds two links not in nav: tools, resources
 
-- System font stack — no custom fonts, no web font loading
-- Black text on light background (#1a1a2e on #fafafa)
-- Max content width: 720px
-- No dark mode toggle (keep it simple)
-- No animations or transitions
-- Responsive by default
+When adding a section, update BOTH nav (in `Layout.astro`) and footer.
 
-## How to Add a New Section
+## SEO (All Auto — Just Provide Correct Frontmatter)
 
-1. Create a new collection in `src/content/config.ts`
-2. Create `src/pages/<section>/index.astro` (listing page)
-3. Create `src/pages/<section>/[...slug].astro` (detail page)
-4. Add navigation link in `src/layouts/Layout.astro`
-5. Add to homepage sections in `src/pages/index.astro`
+- Title renders as "Title — Atheerium"
+- Canonical URL, OG tags, Twitter card, keywords meta — all derived from frontmatter in `Layout.astro`
+- JSON-LD structured data (BlogPosting or WebPage) generated automatically
+- RSS feed at `/rss.xml` includes articles + research + notes
+- `robots.txt` allows all, points to `/sitemap-index.xml`
 
-## What NOT to Change Without Approval
+## Commands
 
-- The layout system (Layout.astro)
-- The color scheme or typography
-- The build and deploy workflow
-- Content collection schemas (without corresponding page changes)
+```bash
+pnpm dev           # dev server
+pnpm build         # production build (only verification check — no linter/formatter/typecheck scripts exist)
+pnpm preview       # preview production build locally
+```
 
-## Tech Stack
-
-- **Framework:** Astro 7
-- **Package manager:** pnpm
-- **Hosting:** GitHub Pages
-- **Integrations:** @astrojs/sitemap
+There are NO lint, format, or typecheck scripts. `pnpm build` is the sole verification step.
 
 ## Content Workflow
 
 1. Write Markdown in `src/content/<collection>/`
-2. Run `pnpm dev` to preview
-3. Commit and push
-4. Site auto-deploys via GitHub Actions
+2. `pnpm dev` to preview
+3. Commit and push to `main`
+4. Site auto-deploys via GitHub Actions (build → deploy to Pages)
 
-## Contact
+Never commit `dist/`, `.astro/`, or `node_modules/`.
 
-- X: @Atheerium
-- GitHub: @atheerium
+## How to Add a New Content Section
+
+1. Add collection in `src/content.config.ts` with its loader and schema
+2. Create `src/pages/<section>/index.astro` — listing page
+3. Create `src/pages/<section>/[...slug].astro` — detail page (follow existing pattern)
+4. Add nav link in `src/layouts/Layout.astro` (both `<nav>` and `<footer>`)
+5. Add homepage section in `src/pages/index.astro` if desired
+
+## Misc
+
+- `src/components/` is empty — there are no shared components. Layout and pages handle everything.
+- `pnpm-workspace.yaml` is NOT a monorepo config — it only disables esbuild builds and pins a minimum release age for astro.
+- Design: system font stack, #1a1a2e on #fafafa, max-width 720px, no dark mode, no animations.
+- No CSS framework — all styles are in `Layout.astro`'s `<style>` tag.
+
+## What NOT to Change Without Approval
+
+- The layout system (`Layout.astro`)
+- The color scheme or typography
+- The build and deploy workflow
+- Content collection schemas (without corresponding page changes)
