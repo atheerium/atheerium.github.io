@@ -74,6 +74,10 @@
   - Automated expired domain discovery -- fetching, filtering, DNS-checking, scoring, and ranking at scale.
   - 2026-07-21 / [["domains", "automation", "pipeline", "expired-domains", "tools"]]
 
+- `/articles/freelance-portfolio-problem/` -- Why Your Freelance Portfolio Isn't Getting You Clients (And How to Fix It)
+  - A list of projects doesn't sell your services. A portfolio of solved problems does. Here's the case study format that doubled my response rate.
+  - 2026-07-21 / [["freelancing", "portfolio", "marketing", "sales", "clients"]]
+
 - `/articles/freelancer-price-race/` -- Competing on Price Almost Broke My Freelance Career
   - How I escaped the race to the bottom by charging 3x more, losing 80% of leads, and making more money than ever.
   - 2026-07-21 / [["freelancing", "pricing", "business", "clients"]]
