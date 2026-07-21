@@ -190,6 +190,10 @@
   - Domain investing, freelancing, and e-commerce — three different businesses, one laptop, and a system that keeps them from collapsing into chaos.
   - 2026-07-21 / [["business", "productivity", "systems", "income", "algeria"]]
 
+- `/articles/mcp-server-domain-portfolio/` -- How to Build an MCP Server for Your Domain Portfolio (And Sell to AI Agents)
+  - AI agents are discovering products through MCP servers. Here's how I built one for my 23-domain portfolio — and how you can do it too.
+  - 2026-07-21 / [["domains", "ai", "agents", "mcp", "tutorial", "automation", "selling"]]
+
 - `/articles/mostaql-vs-upwork-algeria/` -- Mostaql vs. Upwork for Algerian Freelancers -- Which Platform Pays Better?
   - I've used both platforms extensively from Algeria. Here's the honest comparison of rates, fees, client quality, and actual earnings.
   - 2026-07-21 / [["freelancing", "platforms", "mostaql", "upwork", "algeria"]]
