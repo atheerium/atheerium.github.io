@@ -11,15 +11,15 @@
 
 ---
 
-## Phase 2 — First 10 Articles (need 7 more, have 3)
+## Phase 2 — First 10 Articles (10 published)
 
-- [ ] 3. Domain investing workflow — from finding to selling
-- [ ] 4. How I evaluate .com domains — 3-criteria framework
-- [ ] 5. Building OmniPost — multi-platform content bot
-- [ ] 6. NameBio comparable sales workflow
-- [ ] 7. ExpiredDomains.net daily pipeline
-- [ ] 8. AI agents for developers — MCP, automation, workflows
-- [ ] 9. Cold outreach lessons — what actually worked
+- [x] 3. Domain investing workflow — from finding to selling
+- [x] 4. How I evaluate .com domains — 3-criteria framework
+- [x] 5. Building OmniPost — multi-platform content bot
+- [x] 6. NameBio comparable sales workflow
+- [x] 7. ExpiredDomains.net daily pipeline
+- [x] 8. AI agents for developers — MCP, automation, workflows
+- [x] 9. Lessons from selling domains
 
 ---
 
@@ -46,3 +46,10 @@
 | Domain Sales Analysis | Jul 21 | /articles/domain-sales-analysis/ |
 | Domain Daily Pipeline | Jul 21 | /articles/domain-daily-pipeline/ |
 | Cold Email Lessons | Jul 21 | /articles/cold-email-lessons/ |
+| Domain Investing Workflow | Jul 21 | /articles/domain-investing-workflow/ |
+| How I Evaluate .com Domains | Jul 21 | /articles/evaluate-dot-com-domains/ |
+| Building OmniPost | Jul 21 | /articles/building-omnipost/ |
+| NameBio Comparable Sales Workflow | Jul 21 | /articles/namebio-workflow/ |
+| Expired Domains Daily Pipeline | Jul 21 | /articles/expired-domains-pipeline/ |
+| AI Agents for Developers | Jul 21 | /articles/ai-agents-for-devs/ |
+| Lessons from Selling Domains | Jul 21 | /articles/selling-domains-lessons/ |

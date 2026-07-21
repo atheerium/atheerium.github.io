@@ -10,8 +10,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Total pages | 42 |
-| Articles published | 3 |
+| Total pages | 49 |
+| Articles published | 10 |
 | Research published | 1 |
 | Projects published | 1 |
 | Notes published | 1 |
@@ -30,8 +30,15 @@
 | domain-sales-analysis.md | Jul 21 | domain sales, comparable analysis, pricing |
 | domain-daily-pipeline.md | Jul 21 | expired domains, automation, workflow |
 | cold-email-lessons.md | Jul 21 | email outreach, domain selling, lessons |
+| domain-investing-workflow.md | Jul 21 | full workflow, sourcing, evaluation, pricing |
+| evaluate-dot-com-domains.md | Jul 21 | 3-criteria appraisal framework |
+| building-omnipost.md | Jul 21 | multi-platform bot, automation |
+| namebio-workflow.md | Jul 21 | comparable sales, database, pricing |
+| expired-domains-pipeline.md | Jul 21 | daily pipeline, 20K domains, scoring |
+| ai-agents-for-devs.md | Jul 21 | MCP, agents, coding workflow |
+| selling-domains-lessons.md | Jul 21 | results, numbers, lessons learned |
 
-**Target: 10 articles.** Need 7 more. Priority topics: domain investing workflow, AI agents, Astro setup, NameBio guide, OmniPost.
+**Target: 10 articles.** Done. Priority topics: domain investing workflow, AI agents, Astro setup, NameBio guide, OmniPost.
 
 ### research/ — Original analysis
 
@@ -115,18 +122,11 @@ Footer adds: tools, resources, now.
 
 ## Content Pipeline (Pending)
 
-These are articles/research planned but not written:
-
-- Domain investing workflow (how I evaluate domains)
-- Domain keyword analysis (top prefixes, suffixes, patterns)
-- AI agents for developers (agents, MCP, automation)
-- Building OmniPost (multi-platform posting bot)
-- NameBio workflow (comparable sales research)
-- ExpiredDomains.net guide (daily pipeline)
-- Lessons from selling domains (actual numbers)
+Done. Next batch when ready:
 - GitHub Pages + Astro setup guide
 - Cold outreach systems (scalable email workflows)
 - Gulf freelance market research (pricing, platforms, niches)
+- Domain keyword analysis (prefix/suffix patterns)
 
 ---
 
