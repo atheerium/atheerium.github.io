@@ -82,6 +82,10 @@
   - Registering 25 domains and giving each 10% effort guarantees you sell nothing. Here's how to identify your top 3 and double down until they sell.
   - 2026-07-21 / [["domains", "portfolio", "strategy", "sales", "focus"]]
 
+- `/articles/saas-pricing-algeria/` -- Your SaaS Is Too Expensive for the Algerian Market -- Here's the Pricing That Works
+  - Global SaaS tools priced at $50-200/month don't fit Algerian businesses. Here's the pricing model that actually works when your customers earn in DZD.
+  - 2026-07-21 / [["business", "saas", "pricing", "algeria", "products"]]
+
 - `/articles/selling-domains-lessons/` -- What I've Learned From 12 Months of Domain Flipping
   - Actual numbers, actual outcomes -- the wins, the losses, and the hard lessons from a year of domain investing from Algeria.
   - 2026-07-21 / [["domains", "lessons", "results", "flipping", "strategy"]]
