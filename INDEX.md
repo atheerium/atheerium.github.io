@@ -102,6 +102,10 @@
   - How I escaped the race to the bottom by charging 3x more, losing 80% of leads, and making more money than ever.
   - 2026-07-21 / [["freelancing", "pricing", "business", "clients"]]
 
+- `/articles/gulf-clients-from-algeria/` -- Freelancing for Gulf Clients From Algeria -- The Complete Playbook
+  - How I find, pitch, and win Gulf clients from Algeria -- and how I get paid without a Gulf bank account.
+  - 2026-07-21 / [["freelancing", "gulf", "algeria", "clients", "sales", "payments"]]
+
 - `/articles/namebio-workflow/` -- NameBio Workflow: Finding Comparable Domain Sales
   - How I use a 19,000-record domain sales database to price domains and spot market patterns.
   - 2026-07-21 / [["domains", "namebio", "data", "pricing", "research"]]
