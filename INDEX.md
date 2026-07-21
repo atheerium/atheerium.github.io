@@ -114,6 +114,10 @@
   - My process for tracking and analyzing domain sales -- from data collection to identifying patterns that inform acquisition and pricing decisions.
   - 2026-07-21 / [["domains", "data", "analysis", "methodology"]]
 
+- `/articles/domain-valuation-myths/` -- 4 Domain Valuation Myths That Cost Me Money (And the Truth Behind Them)
+  - I believed domain appraisals, thought short names were always better, and trusted 'exact match' for SEO. Here's what the data actually showed.
+  - 2026-07-21 / [["domains", "valuation", "myths", "data", "mistakes"]]
+
 - `/articles/domains-that-sit-forever/` -- I Buy Domains That Sit Forever -- Here's What I Changed
   - How I stopped registering domains nobody wants by validating buyer demand before buying -- a framework that cut my dead inventory to zero.
   - 2026-07-21 / [["domains", "investing", "mistakes", "valuation", "buyer-research"]]
