@@ -58,6 +58,10 @@
   - How I use a 19,000-record domain sales database to price domains and spot market patterns.
   - 2026-07-21 / [["domains", "namebio", "data", "pricing", "research"]]
 
+- `/articles/portfolio-too-big/` -- Your Domain Portfolio Is Too Big -- How to Focus and Actually Sell Something
+  - Registering 25 domains and giving each 10% effort guarantees you sell nothing. Here's how to identify your top 3 and double down until they sell.
+  - 2026-07-21 / [["domains", "portfolio", "strategy", "sales", "focus"]]
+
 - `/articles/selling-domains-lessons/` -- What I've Learned From 12 Months of Domain Flipping
   - Actual numbers, actual outcomes -- the wins, the losses, and the hard lessons from a year of domain investing from Algeria.
   - 2026-07-21 / [["domains", "lessons", "results", "flipping", "strategy"]]
