@@ -42,6 +42,10 @@
   - How I stopped registering domains nobody wants by validating buyer demand before buying -- a framework that cut my dead inventory to zero.
   - 2026-07-21 / [["domains", "investing", "mistakes", "valuation", "buyer-research"]]
 
+- `/articles/ecommerce-profit-calculator/` -- I Was Losing Money on Every Order Until I Fixed My Pricing
+  - Most Algerian e-commerce businesses don't know their real margins. Here's a simple profit calculator that shows you exactly which products and destinations are profitable.
+  - 2026-07-21 / [["business", "ecommerce", "algeria", "pricing", "margins"]]
+
 - `/articles/evaluate-dot-com-domains/` -- How I Evaluate .com Domains: The 3-Criteria Framework
   - My appraisal framework based on buyer pool size, comparable sales, and time to sell -- not speculative metrics.
   - 2026-07-21 / [["domains", "appraisal", "valuation", "framework"]]
