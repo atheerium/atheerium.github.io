@@ -66,6 +66,10 @@
   - After 12 months with zero sales, I started routing weak domains to auction. Here's the framework I use to decide which domains to auction and which to keep.
   - 2026-07-21 / [["domains", "auctions", "portfolio", "selling", "strategy"]]
 
+- `/articles/domain-backordering/` -- Domain Backordering: Should You Backorder or Wait for the Drop?
+  - Backordering sounds like a shortcut to premium domains. Here's when it works, when it doesn't, and why most of my best domains came from drops, not backorders.
+  - 2026-07-21 / [["domains", "backordering", "drops", "acquisition", "strategy"]]
+
 - `/articles/domain-cold-emails/` -- Your Domain Cold Emails Are Going to Spam -- Here's Why
   - After sending 3,000 cold emails for domain sales with a sub-1% reply rate, here's what I learned about deliverability, targeting, and getting humans to respond.
   - 2026-07-21 / [["domains", "outreach", "sales", "email", "cold-email"]]
