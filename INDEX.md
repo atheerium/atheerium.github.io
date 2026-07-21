@@ -42,6 +42,10 @@
   - Automated expired domain discovery -- fetching, filtering, DNS-checking, scoring, and ranking at scale.
   - 2026-07-21 / [["domains", "automation", "pipeline", "expired-domains", "tools"]]
 
+- `/articles/freelancer-price-race/` -- Competing on Price Almost Broke My Freelance Career
+  - How I escaped the race to the bottom by charging 3x more, losing 80% of leads, and making more money than ever.
+  - 2026-07-21 / [["freelancing", "pricing", "business", "clients"]]
+
 - `/articles/namebio-workflow/` -- NameBio Workflow: Finding Comparable Domain Sales
   - How I use a 19,000-record domain sales database to price domains and spot market patterns.
   - 2026-07-21 / [["domains", "namebio", "data", "pricing", "research"]]
