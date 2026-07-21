@@ -126,6 +126,10 @@
   - AI coding agents are incredible at getting to 80%. That last 20% is where the real work begins. Here's when to use AI and when to call a developer.
   - 2026-07-21 / [["freelancing", "ai", "development", "vibe-coding", "prototyping"]]
 
+- `/articles/walking-away-domains/` -- The Most Underrated Domain Investing Skill Is Knowing When to Walk Away
+  - Overpaying for a domain at auction, holding a name too long, chasing a buyer who won't reply -- the best investments I've made are the ones I didn't.
+  - 2026-07-21 / [["domains", "discipline", "psychology", "auctions", "mistakes"]]
+
 - `/articles/whatsapp-order-chaos/` -- WhatsApp Order Chaos Is Costing Your Small Business Money
   - How unorganized order management on WhatsApp leads to missed sales, double-bookings, and angry customers -- and a simple fix that costs $0.
   - 2026-07-21 / [["business", "small-business", "operations", "algeria", "ecommerce"]]
