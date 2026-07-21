@@ -18,6 +18,10 @@
   - Cold email sending, domain appraisal, content posting, delivery price calculation. If a human doesn't need to think about it, a script should be doing it.
   - 2026-07-21 / [["automation", "business", "domains", "freelancing", "productivity"]]
 
+- `/articles/automation-200-lines/` -- I Automated Half My Business With 200 Lines of Python -- Here's What I Learned
+  - Most people think automation means complex systems. My most impactful automation is a 200-line Python script that runs daily and saves me 5 hours a week.
+  - 2026-07-21 / [["automation", "python", "business", "productivity", "beginner"]]
+
 - `/articles/build-your-own-tools/` -- I Built My Own Tools Because Off-the-Shelf Software Was Never Built for Me
   - When you run a business outside the US/Europe, most SaaS doesn't fit. Here's why building your own tools is cheaper and faster than you think.
   - 2026-07-21 / [["business", "tools", "development", "saas", "automation"]]
