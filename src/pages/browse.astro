@@ -1,0 +1,131 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = await getCollection('articles', ({ data }) => !data.draft);
+const research = await getCollection('research', ({ data }) => !data.draft);
+const projects = await getCollection('projects', ({ data }) => !data.draft);
+const domains = await getCollection('domains', ({ data }) => !data.draft);
+const notes = await getCollection('notes', ({ data }) => !data.draft);
+
+const allArticles = articles.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+const allResearch = research.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+const allProjects = projects.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+const allDomains = domains.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+const allNotes = notes.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+---
+
+<Layout title="Browse">
+
+<h1>Browse</h1>
+<p style="color: #555;">Full index of every page on this site. For humans and agents.</p>
+
+<section style="margin-bottom: 2rem;">
+  <h2>Static Pages</h2>
+  <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+    <tr><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Path</th><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Description</th></tr>
+    <tr><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;"><a href="/">/</a></td><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;">Homepage with selling badge and recent content</td></tr>
+    <tr><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;"><a href="/start/">/start/</a></td><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;">Curated entry point for new visitors</td></tr>
+    <tr><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;"><a href="/about/">/about/</a></td><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;">Bio and overview</td></tr>
+    <tr><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;"><a href="/contact/">/contact/</a></td><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;">WhatsApp, email, X DMs, GitHub</td></tr>
+    <tr><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;"><a href="/services/">/services/</a></td><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;">Freelance web dev offerings and pricing</td></tr>
+    <tr><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;"><a href="/now/">/now/</a></td><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;">Current focus and what I'm doing now</td></tr>
+    <tr><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;"><a href="/tools/">/tools/</a></td><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;">Domain analysis utilities</td></tr>
+    <tr><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;"><a href="/resources/">/resources/</a></td><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;">Curated links and datasets</td></tr>
+    <tr><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;"><a href="/browse/">/browse/</a></td><td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;">Full site index (this page)</td></tr>
+    <tr><td style="padding: 0.3rem 0.5rem;"><a href="/rss.xml">/rss.xml</a></td><td style="padding: 0.3rem 0.5rem;">RSS feed</td></tr>
+  </table>
+</section>
+
+<section style="margin-bottom: 2rem;">
+  <h2>Articles ({allArticles.length})</h2>
+  {allArticles.length > 0 ? (
+    <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+      <tr><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Date</th><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Title</th><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Summary</th><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Tags</th></tr>
+      {allArticles.map(entry => (
+        <tr>
+          <td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee; white-space: nowrap;">{entry.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</td>
+          <td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;"><a href={`/articles/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a></td>
+          <td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee; font-size: 0.85rem; color: #555;">{entry.data.description}</td>
+          <td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee; font-size: 0.8rem;">{entry.data.tags?.join(', ')}</td>
+        </tr>
+      ))}
+    </table>
+  ) : (
+    <p>No articles yet.</p>
+  )}
+</section>
+
+<section style="margin-bottom: 2rem;">
+  <h2>Research ({allResearch.length})</h2>
+  {allResearch.length > 0 ? (
+    <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+      <tr><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Date</th><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Title</th><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Summary</th></tr>
+      {allResearch.map(entry => (
+        <tr>
+          <td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee; white-space: nowrap;">{entry.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</td>
+          <td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;"><a href={`/research/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a></td>
+          <td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee; font-size: 0.85rem; color: #555;">{entry.data.description}</td>
+        </tr>
+      ))}
+    </table>
+  ) : (
+    <p>No research yet.</p>
+  )}
+</section>
+
+<section style="margin-bottom: 2rem;">
+  <h2>Projects ({allProjects.length})</h2>
+  {allProjects.length > 0 ? (
+    <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+      <tr><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Status</th><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Title</th><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Summary</th></tr>
+      {allProjects.map(entry => (
+        <tr>
+          <td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee; white-space: nowrap; font-size: 0.8rem;">{entry.data.status}</td>
+          <td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;"><a href={`/projects/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a></td>
+          <td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee; font-size: 0.85rem; color: #555;">{entry.data.description}</td>
+        </tr>
+      ))}
+    </table>
+  ) : (
+    <p>No projects yet.</p>
+  )}
+</section>
+
+<section style="margin-bottom: 2rem;">
+  <h2>Domains ({allDomains.length})</h2>
+  {allDomains.length > 0 ? (
+    <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+      <tr><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Date</th><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Domain</th><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Description</th></tr>
+      {allDomains.map(entry => (
+        <tr>
+          <td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee; white-space: nowrap;">{entry.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</td>
+          <td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;"><a href={`/domains/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a></td>
+          <td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee; font-size: 0.85rem; color: #555;">{entry.data.description}</td>
+        </tr>
+      ))}
+    </table>
+  ) : (
+    <p>No domains listed.</p>
+  )}
+</section>
+
+<section style="margin-bottom: 2rem;">
+  <h2>Notes ({allNotes.length})</h2>
+  {allNotes.length > 0 ? (
+    <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+      <tr><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Date</th><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Title</th><th style="text-align: left; padding: 0.3rem 0.5rem; border-bottom: 1px solid #ddd;">Summary</th></tr>
+      {allNotes.map(entry => (
+        <tr>
+          <td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee; white-space: nowrap;">{entry.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</td>
+          <td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee;"><a href={`/notes/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a></td>
+          <td style="padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee; font-size: 0.85rem; color: #555;">{entry.data.description}</td>
+        </tr>
+      ))}
+    </table>
+  ) : (
+    <p>No notes yet.</p>
+  )}
+</section>
+
+</Layout>

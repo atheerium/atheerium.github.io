@@ -1,0 +1,55 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = await getCollection('articles', ({ data }) => !data.draft);
+const best = articles.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+---
+
+<Layout title="Start Here">
+
+<h1>Start Here</h1>
+
+<p style="font-size: 1.1rem; color: #555;">
+  This site covers domain investing, AI agents, freelancing, and building tools from Algeria.
+  If you're new, here's where to begin.
+</p>
+
+<h2>If you're here for domains</h2>
+<ol>
+  <li><a href="/articles/domain-investing-workflow/">Domain Investing Workflow</a> -- full process from finding domains to selling them</li>
+  <li><a href="/articles/evaluate-dot-com-domains/">How I Evaluate .com Domains</a> -- the 3-criteria framework I use</li>
+  <li><a href="/articles/expired-domains-pipeline/">The Daily Domain Pipeline</a> -- processing 20,000 expired domains daily</li>
+  <li><a href="/articles/namebio-workflow/">NameBio Comparable Sales Workflow</a> -- how I research domain prices</li>
+  <li><a href="/domains/">Browse my portfolio</a> -- 23 domains for sale</li>
+</ol>
+
+<h2>If you're here for AI / development</h2>
+<ol>
+  <li><a href="/articles/ai-agents-for-devs/">AI Agents for Developers</a> -- my stack and workflow</li>
+  <li><a href="/articles/building-omnipost/">Building OmniPost</a> -- multi-platform content bot</li>
+  <li><a href="/articles/domain-sales-analysis/">Domain Sales Analysis</a> -- analyzing 19,000 sales records</li>
+</ol>
+
+<h2>If you're here for freelancing</h2>
+<ol>
+  <li><a href="/services/">Services</a> -- what I build and pricing</li>
+  <li><a href="/contact/">Contact</a> -- WhatsApp, email, X DMs</li>
+</ol>
+
+<h2>All articles (newest first)</h2>
+<ul class="entry-list">
+  {best.map(entry => (
+    <li>
+      <span class="date">{entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+      <a href={`/articles/${entry.id.replace('.md', '')}/`}>{entry.data.title}</a>
+      <p class="desc">{entry.data.description}</p>
+    </li>
+  ))}
+</ul>
+
+<p style="margin-top: 2rem;">
+  <a href="/browse/">Browse full site index --</a>
+</p>
+
+</Layout>

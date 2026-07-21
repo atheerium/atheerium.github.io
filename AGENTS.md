@@ -75,7 +75,7 @@ When creating pages, pass these to `<Layout>`:
 
 ## Navigation
 
-**Nav bar** (top): Home · articles · research · projects · domains [23 for sale] · notes · services · contact · about
+**Nav bar** (top): Home · articles · research · projects · domains [23 for sale] · start · browse · notes · services · contact · about
 **Footer**: adds services, contact, tools, resources, now
 
 When adding a section, update BOTH nav (in `Layout.astro`) and footer.
@@ -103,7 +103,8 @@ When starting work on this repo for the first time in a session:
 
 1. Read `STATE.md` for the current site inventory and pending work
 2. Read `TASKS.md` for the active task list and priorities
-3. Read this file (AGENTS.md) for project conventions
+3. Read `INDEX.md` for all published content (prevents duplicates)
+4. Read this file (AGENTS.md) for project conventions
 4. Read the relevant content collection(s) before editing
 5. Run `pnpm build` before committing to verify no errors
 
@@ -119,9 +120,11 @@ There are NO lint, format, or typecheck scripts. `pnpm build` is the sole verifi
 
 ## Content Workflow
 
-1. Write Markdown in `src/content/<collection>/`
-2. `pnpm dev` to preview
-3. Commit and push to `main`
+1. Check `INDEX.md` or visit `/browse/` to verify the topic hasn't been published
+2. Write Markdown in `src/content/<collection>/`
+3. Run `python3 scripts/generate-index.py` to update INDEX.md
+4. `pnpm dev` to preview
+5. Commit and push to `main`
 4. Site auto-deploys via GitHub Actions (build → deploy to Pages)
 
 Never commit `dist/`, `.astro/`, or `node_modules/`.
