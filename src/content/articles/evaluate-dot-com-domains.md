@@ -71,3 +71,7 @@ I don't look at:
 - **Estibot or GoDaddy appraisal** -- useful only as a sanity check, never as a decision maker
 
 The three criteria above have never led me to a bad purchase. The only domains I regret are the ones where I ignored the framework because I liked the name.
+
+---
+
+*Related:* [The Daily Domain Pipeline: How I Process 20,000 Expired Domains in 45 Seconds](/articles/expired-domains-pipeline/), [I Buy Domains That Sit Forever -- Here's What I Changed](/articles/domains-that-sit-forever/), [How I Analyze Domain Sales Data](/articles/domain-sales-analysis/), [The Most Underrated Domain Investing Skill Is Knowing When to Walk Away](/articles/walking-away-domains/)

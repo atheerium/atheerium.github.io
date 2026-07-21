@@ -56,3 +56,7 @@ The second gap is agent memory. Every session starts fresh. I've mitigated this 
 The AI agent stack is where Rails was in 2005 -- powerful but unopinionated. The developers who figure out workflows and tooling now will have a massive advantage in 2 years.
 
 My advice: pick one orchestrator agent, one coding agent, and build MCP servers for your most common tools. The setup cost is real (~2 days per MCP server), but the leverage compounds every week.
+
+---
+
+*Related:* [How I Use AI Agents as My Coding Partner (Not Just a Chatbot)](/articles/ai-agents-coding-partner/), [I Used AI to Build a Prototype in 2 Hours -- and Spent 3 Weeks Cleaning It Up](/articles/vibe-coding-cleanup/), [I Built My Own Tools Because Off-the-Shelf Software Was Never Built for Me](/articles/build-your-own-tools/), [How I Use Supabase Free Tier to Run Multiple Business Apps](/articles/supabase-free-tier/)

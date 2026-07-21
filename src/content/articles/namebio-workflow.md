@@ -67,3 +67,7 @@ The key is not to cherry-pick. If the top result is $5,000 but the next 10 are $
 Without comparable sales, domain pricing is guessing. With a database, it's research. The confidence level is transparent -- "3 strong comps at $400-$600" is a statement you can defend. "I think it's worth $2,000" is a feeling.
 
 I update the database monthly with new sales. Patterns shift, categories cool down, new ones heat up. The data keeps my pricing grounded.
+
+---
+
+*Related:* [How I Analyze Domain Sales Data](/articles/domain-sales-analysis/), [Domain Investing Workflow: From Finding Domains to Getting Paid](/articles/domain-investing-workflow/), [The Most Underrated Domain Investing Skill Is Knowing When to Walk Away](/articles/walking-away-domains/), [What I've Learned From 12 Months of Domain Flipping](/articles/selling-domains-lessons/)

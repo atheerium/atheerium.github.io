@@ -82,3 +82,7 @@ Zero. GROQ has a generous free tier. Cloak Browser is open-source. The bot runs 
 3. **Content quality matters more than volume.** The bot posts hourly, but I curate the prompts carefully. Generic AI content gets ignored. Specific facts and numbers get engagement.
 
 The full source is available on my GitHub.
+
+---
+
+*Related:* [Building a Daily Domain Pipeline](/articles/domain-daily-pipeline/), [How I Use Twitter as a Business Tool (Not a Distraction)](/articles/twitter-business-tool/), [How I Use AI Agents as My Coding Partner (Not Just a Chatbot)](/articles/ai-agents-coding-partner/), [How I Use GitHub to Run My Entire Business (For Free)](/articles/github-for-business/)

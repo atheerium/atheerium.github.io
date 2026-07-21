@@ -66,3 +66,7 @@ Three data points within $300 of each other. That's a reliable band. Without the
 ## Bottom line
 
 19,000 records is enough to spot patterns, not enough to be authoritative on niche domains. I'm adding 200–500 records per month. Over time, the database becomes the most valuable asset in my toolkit — more useful than any single domain in the portfolio.
+
+---
+
+*Related:* [NameBio Workflow: Finding Comparable Domain Sales](/articles/namebio-workflow/), [The Daily Domain Pipeline: How I Process 20,000 Expired Domains in 45 Seconds](/articles/expired-domains-pipeline/), [Your Domain Portfolio Is Too Big -- How to Focus and Actually Sell Something](/articles/portfolio-too-big/), [How I Evaluate .com Domains: The 3-Criteria Framework](/articles/evaluate-dot-com-domains/)

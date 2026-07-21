@@ -49,3 +49,7 @@ That's the honest scoreboard. No success story, no "I made $10K in my first mont
 I'm doubling down on the Priority Top 3. Each gets 100 targeted outbound sends to named founders and C-level executives. If zero human replies by day 30, route to auction and move on. No mercy, no hopeium.
 
 The domains that matter are the ones that sell, not the ones I like.
+
+---
+
+*Related:* [Domain Investing Workflow: From Finding Domains to Getting Paid](/articles/domain-investing-workflow/), [What Domain Investing Taught Me About Business That Nothing Else Could](/articles/domain-investing-business-lessons/), [Your Domain Portfolio Is Too Big -- How to Focus and Actually Sell Something](/articles/portfolio-too-big/), [I Thought Domain Flipping Would Make Me Rich Quick -- Here's What Actually Happened](/articles/domain-flipping-reality/)

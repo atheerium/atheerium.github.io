@@ -76,3 +76,7 @@ The same pipeline accepts custom input files. If I find a list on ExpiredDomains
 - Add GoDaddy API integration for instant backordering
 - Expand to .io and .ai TLDs (growing markets)
 - Auto-categorize domains by buyer type (fintech, health, logistics)
+
+---
+
+*Related:* [Building a Daily Domain Pipeline](/articles/domain-daily-pipeline/), [How I Use GitHub to Run My Entire Business (For Free)](/articles/github-for-business/), [How I Evaluate .com Domains: The 3-Criteria Framework](/articles/evaluate-dot-com-domains/), [How I Analyze Domain Sales Data](/articles/domain-sales-analysis/)

@@ -95,3 +95,7 @@ A typical daily report:
 Before automation, I'd miss 80% of the good drops. Now I see them all. The pipeline doesn't replace judgment — it surfaces candidates I'd never find manually.
 
 The code is at [domain-daily-pipeline](https://github.com/atheerium/domain-daily-pipeline) on GitHub.
+
+---
+
+*Related:* [The Daily Domain Pipeline: How I Process 20,000 Expired Domains in 45 Seconds](/articles/expired-domains-pipeline/), [How I Use GitHub to Run My Entire Business (For Free)](/articles/github-for-business/), [Building OmniPost: A Multi-Platform Content Bot](/articles/building-omnipost/), [I Built My Own Tools Because Off-the-Shelf Software Was Never Built for Me](/articles/build-your-own-tools/)
