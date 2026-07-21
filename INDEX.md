@@ -154,6 +154,10 @@
   - Domain appraisal tools, content generation features, and automation systems I built that nobody used. The hard lesson about building what's needed vs what's cool.
   - 2026-07-21 / [["business", "building", "mvp", "validation", "lessons"]]
 
+- `/articles/supabase-free-tier/` -- How I Use Supabase Free Tier to Run Multiple Business Apps
+  - No credit card required. PostgreSQL database, authentication, file storage, and real-time subscriptions -- all free. Here's exactly what the free tier covers and when to upgrade.
+  - 2026-07-21 / [["development", "supabase", "saas", "backend", "hosting"]]
+
 - `/articles/twitter-business-tool/` -- How I Use Twitter as a Business Tool (Not a Distraction)
   - Twitter is where I find clients, learn what's working, and build reputation. Here's the system that makes it productive, not addictive.
   - 2026-07-21 / [["twitter", "marketing", "networking", "business", "social-media"]]
