@@ -22,6 +22,10 @@
   - How I built an automated bot that posts to Twitter, Bluesky, and Dev.to from a single content pipeline.
   - 2026-07-21 / [["projects", "automation", "bots", "twitter", "bluesky"]]
 
+- `/articles/cod-killing-margins/` -- Cash on Delivery Is Killing Your Margins (And What to Do About It)
+  - COD rejection rates of 10-15% silently destroy e-commerce profitability. Here's a system to cut rejections by half without losing sales.
+  - 2026-07-21 / [["business", "ecommerce", "algeria", "payments", "cod", "cash-flow"]]
+
 - `/articles/cold-email-lessons/` -- Cold Email Lessons from Domain Outreach
   - What I've learned from sending 3,000+ cold emails for domain sales -- what works, what doesn't, and what I'd do differently.
   - 2026-07-19 / [["outreach", "sales", "email", "domains"]]
